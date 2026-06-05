@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Zhouxing Zhao's searchable personal homepage.">
+    <title>Zhouxing Zhao | Personal Homepage</title>
+    <link rel="icon" href="assets/avatar.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-title" href="#home" aria-label="Back to homepage">
+        <span data-profile-name>Zhouxing Zhao</span>
+      </a>
+      <nav class="site-nav" aria-label="Page navigation">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#materials">Materials</a>
+      </nav>
+    </header>
+
+    <main id="home" class="page-shell">
+      <aside class="profile-card" aria-label="Profile">
+        <img class="avatar" src="assets/avatar.svg" alt="" data-avatar>
+        <div class="identity">
+          <h1 data-page-title>Zhouxing Zhao</h1>
+          <p class="headline" data-profile-headline>R&D Director | Chief Architect</p>
+        </div>
+        <div class="profile-meta" data-profile-meta></div>
+        <div class="contact-stack" data-contact-links></div>
+        <div class="profile-stats" aria-label="Material statistics">
+          <span><strong data-stat-docs>0</strong> materials</span>
+          <span><strong data-stat-tags>0</strong> tags</span>
+          <span><strong data-stat-updated>-</strong> updated</span>
+        </div>
+      </aside>
+
+      <div class="content-column">
+        <section id="about" class="section-block">
+          <p class="section-kicker">About</p>
+          <h2>Biography</h2>
+          <p class="section-lede" data-profile-summary>
+            This homepage presents public profile information, representative projects, publications, services, and searchable materials.
+          </p>
+          <div class="tag-cloud" data-skills></div>
+        </section>
+
+        <section id="services" class="section-block">
+          <p class="section-kicker">Services & Honors</p>
+          <h2>Professional Services and Honors</h2>
+          <div class="two-column-list">
+            <section>
+              <h3>Services</h3>
+              <ul class="plain-list" data-services></ul>
+            </section>
+            <section>
+              <h3>Honors</h3>
+              <ul class="plain-list" data-honors></ul>
+            </section>
+          </div>
+        </section>
+
+        <section id="experience" class="section-block">
+          <p class="section-kicker">Experience</p>
+          <h2>Professional Appointments</h2>
+          <div class="entry-list" data-experience></div>
+        </section>
+
+        <section id="projects" class="section-block">
+          <p class="section-kicker">Projects</p>
+          <h2>Representative Projects</h2>
+          <div class="entry-list" data-projects></div>
+        </section>
+
+        <section id="publications" class="section-block">
+          <p class="section-kicker">Publications & IP</p>
+          <h2>Selected Publications and Intellectual Property</h2>
+          <div class="two-column-list">
+            <section>
+              <h3>Publications</h3>
+              <ul class="plain-list" data-publications></ul>
+            </section>
+            <section>
+              <h3>Patents & Software Copyrights</h3>
+              <ul class="plain-list" data-patents></ul>
+            </section>
+          </div>
+        </section>
+
+        <section id="materials" class="section-block">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Materials</p>
+              <h2>Searchable Public Materials</h2>
+            </div>
+            <span class="count-label" data-results-count>0 items</span>
+          </div>
+
+          <div class="search-panel">
+            <label class="search-box">
+              <span aria-hidden="true">⌕</span>
+              <input data-search-input type="search" placeholder="Search projects, publications, skills, keywords..." autocomplete="off">
+            </label>
+            <button class="text-button" type="button" data-reset-search>Clear</button>
+          </div>
+
+          <div class="filters" data-filters aria-label="Filter by tag or type"></div>
+          <h3 class="results-title" data-results-title>All Materials</h3>
+          <div class="result-list" data-results aria-live="polite"></div>
+        </section>
+      </div>
+    </main>
+
+    <template id="result-card-template">
+      <article class="result-card">
+        <div class="card-topline">
+          <span class="type-pill" data-doc-type></span>
+          <time data-doc-date></time>
+        </div>
+        <h3><a data-doc-link></a></h3>
+        <p data-doc-summary></p>
+        <div class="card-tags" data-doc-tags></div>
+      </article>
+    </template>
+
+    <script src="assets/app.js" defer></script>
+  </body>
+</html>

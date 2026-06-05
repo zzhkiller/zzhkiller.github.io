@@ -1,0 +1,336 @@
+{
+  "name": "Zhouxing Zhao",
+  "headline": "R&D Director | Chief Architect | AI, Data & Cloud-Edge Systems",
+  "location": "Hangzhou, China",
+  "organization": "Zhejiang Communications Services Co., Ltd.",
+  "role": "R&D Director and Chief Architect",
+  "summary": "Zhouxing Zhao works on AI engineering, data governance, low-altitude UAV applications, cloud-edge collaboration, and intelligent scheduling systems. His work connects enterprise architecture, research-driven product development, and large-scale engineering delivery across digital transformation scenarios.",
+  "avatar": "assets/profile.jpeg",
+  "contacts": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/zzhkiller"
+    }
+  ],
+  "skills": [
+    "AI Engineering",
+    "Computer Vision",
+    "Large Model Applications",
+    "Cloud-Edge Collaboration",
+    "Low-Altitude UAV Systems",
+    "Data Governance",
+    "Enterprise Architecture",
+    "TOGAF",
+    "DevOps",
+    "Knowledge Graphs",
+    "Microservices",
+    "Heterogeneous Computing"
+  ],
+  "highlights": [
+    {
+      "date": "2026",
+      "text": "Recommended as a candidate for China Telecom Association for Science and Technology's Most Beautiful Science and Technology Worker."
+    },
+    {
+      "date": "2025",
+      "text": "Led and participated in key projects on professional UAV R&D, data-driven code assembly, cloud-edge intelligent cores, and enterprise data governance."
+    },
+    {
+      "date": "2025",
+      "text": "Team achievements include recognition for Zhejiang Multimodal Intelligent IoT Communication Technology Key Enterprise Research Institute and Zhejiang Comservice advanced team."
+    },
+    {
+      "date": "2024",
+      "text": "Recognized as Excellent Architect by Zhejiang Smart City Promotion Association."
+    }
+  ],
+  "experience": [
+    {
+      "period": "May 2023 - Present",
+      "role": "R&D Director / Chief Architect",
+      "organization": "China Communications Services / Zhejiang Communications Services",
+      "organizationLinks": [
+        {
+          "label": "China Communications Services",
+          "url": "https://www.chinaccs.com.hk/en/"
+        },
+        {
+          "label": "Zhejiang Communications Services",
+          "url": "https://www.chinaccs.com.hk/en/about/about.php"
+        }
+      ],
+      "bullets": [
+        "Leads AI and data product R&D, digital transformation architecture, and cross-provincial delivery.",
+        "Built an AI capability platform and a 50-person AI R&D team with engineering standards and documentation practices.",
+        "Designed low-code, data asset, and reusable component architectures to reduce integration complexity."
+      ]
+    },
+    {
+      "period": "Apr 2021 - May 2023",
+      "role": "Head of R&D Center",
+      "organization": "Hangzhou Shuopan Intelligent Technology Co., Ltd.",
+      "organizationUrl": "https://www.boulderaitech.com/",
+      "bullets": [
+        "Managed a 40-person R&D team and built master-data and foundational-data systems with TOGAF enterprise architecture methods.",
+        "Used data fabric and application assembly practices to shorten enterprise product delivery cycles.",
+        "Built DevOps and continuous integration systems from the ground up."
+      ]
+    },
+    {
+      "period": "Jul 2015 - Apr 2021",
+      "role": "Senior Manager",
+      "organization": "Hikvision Digital Technology Co., Ltd.",
+      "organizationUrl": "https://www.hikvision.com/en/",
+      "bullets": [
+        "Led B2B DevOps platform construction from zero to one and reduced application release time significantly.",
+        "Designed KMS architecture for large-scale attachment data and intelligent permission management.",
+        "Managed software product BOM systems and received Hikvision's Golden Brick Award for two consecutive years."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "period": "2012 - 2015",
+      "degree": "M.S. in Automation",
+      "school": "Hangzhou Dianzi University",
+      "details": "Research focus: automatic control theory and applications."
+    },
+    {
+      "period": "2008 - 2012",
+      "degree": "B.S. in Automation",
+      "school": "Hangzhou Dianzi University",
+      "details": ""
+    }
+  ],
+  "projects": [
+    {
+      "period": "2025 - 2026",
+      "title": "Professional UAV R&D and Applications for Typical Low-Altitude Scenarios",
+      "role": "Core contributor, rank 4/30",
+      "url": "content/materials/research-projects.md",
+      "summary": "Developed a professional UAV platform for urban security, emergency communications, perception scheduling, intelligent recognition, and task collaboration in low-altitude scenarios.",
+      "outcome": "Built a unified scheduling platform for heterogeneous UAVs and improved real-time response capabilities in complex environments."
+    },
+    {
+      "period": "2023 - 2025",
+      "title": "Data-Driven Code Assembly Platform",
+      "role": "Project lead, rank 1/40",
+      "url": "content/materials/research-projects.md",
+      "summary": "Led an automated code assembly platform based on data-driven reuse, component reuse, modular repositories, and knowledge graphs.",
+      "outcome": "The platform improved average R&D efficiency by more than 30% according to the personal statement."
+    },
+    {
+      "period": "2025 - 2026",
+      "title": "Cloud-Edge Intelligent Core for Integrated Sensing and Collaborative Dispatching",
+      "role": "Architecture lead",
+      "url": "content/materials/research-projects.md",
+      "summary": "Designed cloud-edge intelligent core architecture and lightweight AI inference technologies for constrained terminals, reducing AI processing latency and bandwidth usage in pilot applications."
+    },
+    {
+      "period": "2024 - 2025",
+      "title": "Key Technologies for Photovoltaic Cloud-Edge-Device Collaborative Intelligent Response",
+      "role": "Project lead",
+      "url": "content/materials/research-projects.md",
+      "summary": "Researched cloud-edge-device collaboration for photovoltaic scenarios, including edge real-time monitoring, cloud scheduling, terminal response, and predictive maintenance.",
+      "outcome": "The personal statement records reported sales revenue of RMB 1 billion from this achievement."
+    }
+  ],
+  "publications": [
+    {
+      "title": "A Monocular Depth Estimation Method for Autonomous Driving Vehicles Based on Gaussian Neural Radiance Fields",
+      "authors": "Ziqin Nie, Zhouxing Zhao, Jieying Pan, Yilong Ren, Haiyang Yu, Liang Xu",
+      "venue": "Sensors, 26(3), 896",
+      "year": "2026",
+      "url": "https://doi.org/10.3390/s26030896",
+      "summary": "DOI: 10.3390/s26030896."
+    },
+    {
+      "title": "Internal Audit and Risk Management of State-Owned Enterprises in the Big Data Environment",
+      "authors": "Zhouxing Zhao, Jiansheng Li, Lieyong Xie, Xiaolan Zhu",
+      "venue": "International Economics and Development",
+      "year": "2025",
+      "url": "https://api.artdesignp.com/uploads/file/asp/20250917131015d18308092.pdf",
+      "summary": "DOI: 10.61369/IED.2025020006."
+    },
+    {
+      "title": "The Foundation Support, Key Areas and Development Focus of Low-Altitude Economy",
+      "authors": "Chang Sun, Zhouxing Zhao, Shuai Hu, Fangjuan Liao",
+      "venue": "International Economics and Development",
+      "year": "2024",
+      "url": "https://api.artdesignp.com/uploads/file/asp/20250812145709ca1043140.pdf",
+      "summary": "DOI: 10.61369/IED.2024120008."
+    },
+    {
+      "title": "Resource-Incentivized-Based Asynchronous Task Scheduling for Cross-Regional Cloud-Edge Collaboration",
+      "authors": "Guanjie Cheng, Ruihao Wang, Yishan Chen, Zhouxing Zhao, Xinkui Zhao, Zhiyang Ding",
+      "venue": "Telecommunications Science",
+      "year": "2026",
+      "url": "https://www.telecomsci.com/zh/article/156375467/",
+      "summary": "Online-first article page."
+    }
+  ],
+  "patents": [
+    {
+      "title": "Data Storage Method and System Based on Blockchain",
+      "publication": "CN118690396B",
+      "role": "Second inventor of five",
+      "year": "2024",
+      "url": "https://patents.google.com/patent/CN118690396B/zh"
+    },
+    {
+      "title": "Application Assembly Middle Platform System Based on Metadata Asset Platform",
+      "publication": "CN118350030A",
+      "role": "Second inventor of five",
+      "year": "2024",
+      "url": "https://patents.google.com/patent/CN118350030A/zh"
+    },
+    {
+      "title": "Device Fingerprint Identification Method and Apparatus",
+      "publication": "CN113765891B",
+      "role": "Third inventor of five",
+      "year": "2021",
+      "url": "https://patents.google.com/patent/CN113765891B/zh"
+    },
+    {
+      "title": "Bionic Swarm-Intelligence Anti-Wind Collaborative Method for Low-Altitude Logistics UAV Clusters",
+      "publication": "CN120595865A",
+      "role": "First inventor of six",
+      "year": "2025",
+      "url": "https://patents.google.com/patent/CN120595865A/zh"
+    },
+    {
+      "title": "AI-Based Data Asset Quality Assessment and Automatic Repair Method and System",
+      "publication": "CN120595865A",
+      "role": "First inventor of six",
+      "year": "2024",
+      "url": "https://patents.google.com/patent/CN120595865A/zh",
+      "note": "Publication number is duplicated in the source statement and should be verified before final release."
+    },
+    {
+      "title": "Data Organization Method for an Activity-Based Cost Control Data Warehouse for Pharmaceutical Enterprises",
+      "publication": "CN103258047B",
+      "role": "Fourth inventor of five",
+      "year": "2013",
+      "url": "https://patents.google.com/patent/CN103258047B/zh"
+    },
+    {
+      "title": "Edge Real-Time Monitoring and Abnormal Behavior Analysis Method Based on Deep-Learning Large Models",
+      "publication": "CN119150241A",
+      "role": "First inventor of six",
+      "year": "2024",
+      "url": "https://patents.google.com/patent/CN119150241A/zh"
+    },
+    {
+      "title": "Network Communication Method and System for Low-Altitude Fields",
+      "publication": "CN119172827A",
+      "role": "First inventor of seven",
+      "year": "2024",
+      "url": "https://patents.google.com/patent/CN119172827A/zh"
+    },
+    {
+      "title": "Low-Altitude Economy Development Form Analysis Method and System for High-Density Cities",
+      "publication": "CN118350030A",
+      "role": "First inventor of four",
+      "year": "2025",
+      "url": "https://patents.google.com/patent/CN118350030A/zh",
+      "note": "Publication number is reused in the source statement and should be verified before final release."
+    },
+    {
+      "title": "Consensus Method and System Based on Data Assets",
+      "publication": "CN120631983B",
+      "role": "First inventor of seven",
+      "year": "2025",
+      "url": "https://patents.google.com/patent/CN120631983B/zh"
+    },
+    {
+      "title": "Communication-Interference Integrated Base-Station Method and System for UAV Low-Altitude Security",
+      "publication": "CN120263276B",
+      "role": "First inventor of four",
+      "year": "2025",
+      "url": "https://patents.google.com/patent/CN120263276B/zh"
+    },
+    {
+      "title": "Encrypted Communication Method and System for Metadata Assets",
+      "publication": "CN118694514A",
+      "role": "First inventor of five",
+      "year": "2024",
+      "url": "https://patents.google.com/patent/CN118694514A/zh"
+    },
+    {
+      "title": "UAV Multipath Reflection Communication Enhancement Method and System for Urban Canyons",
+      "publication": "CN120639125B",
+      "role": "First inventor of seven",
+      "year": "2024",
+      "url": "https://patents.google.com/patent/CN120639125B/zh"
+    },
+    {
+      "title": "UAV Detection and Tracking Method Adapted to Low-Altitude Economy Road Inspection and Logistics",
+      "publication": "CN120708393A",
+      "role": "First inventor of four",
+      "year": "2025",
+      "url": "https://patents.google.com/patent/CN120708393A/zh"
+    },
+    {
+      "title": "Low-Altitude Economy UAV Data Processing Method and System Based on Large Models",
+      "publication": "CN119169493B",
+      "role": "First inventor of eight",
+      "year": "2024",
+      "url": "https://patents.google.com/patent/CN119169493B/zh"
+    },
+    {
+      "title": "Client-Based AI Model Dynamic Optimization and Adaptive Inference Method",
+      "publication": "CN119903928A",
+      "role": "First inventor of ten",
+      "year": "2024",
+      "url": "https://patents.google.com/patent/CN119903928A/zh"
+    },
+    {
+      "title": "Engineering Edge Data Fragment Reassembly and Business Breakpoint Resume Method in Weak-Network Environments",
+      "publication": "CN120602477B",
+      "role": "First inventor of six",
+      "year": "2025",
+      "url": "https://patents.google.com/patent/CN120602477B/zh"
+    },
+    {
+      "title": "Energy-Saving Edge Service Invocation Sleep-Wake Control Method and System",
+      "publication": "CN120730447A",
+      "role": "First inventor of six",
+      "year": "2025",
+      "url": "https://patents.google.com/patent/CN120730447A/zh"
+    },
+    {
+      "title": "Software Copyrights",
+      "publication": "18 registrations",
+      "status": "Summary",
+      "year": "As listed in the personal statement",
+      "note": "Software copyright certificate links can be added after selecting which certificates are suitable for public release."
+    }
+  ],
+  "services": [
+    "Industrial Professor, Zhejiang Post and Telecommunication College.",
+    "Lecturer, School of Mechanical Engineering, Jiaxing University.",
+    "Expert, Zhejiang Association for Artificial Intelligence.",
+    "Expert, Hangzhou Digital Economy Federation.",
+    "Senior expert in the telecom group ecosystem."
+  ],
+  "honors": [
+    "Excellent Architect, Zhejiang Smart City Promotion Association, 2024.",
+    "Hikvision Golden Brick Award, two consecutive years.",
+    "Zhejiang Comservice Outstanding Individual, 2025.",
+    "Zhejiang Comservice Advanced Team, 2025."
+  ],
+  "quickLinks": [
+    {
+      "label": "Materials Search",
+      "url": "#materials"
+    },
+    {
+      "label": "Projects",
+      "url": "#projects"
+    },
+    {
+      "label": "Publications",
+      "url": "#publications"
+    }
+  ]
+}

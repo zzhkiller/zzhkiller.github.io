@@ -1,0 +1,36 @@
+{
+  "site": {
+    "title": "Zhouxing Zhao | Personal Homepage",
+    "description": "A searchable personal homepage for public profile, projects, publications, services, and materials.",
+    "recommendedRepository": "zzhkiller.github.io",
+    "recommendedPagesUrl": "https://zzhkiller.github.io/"
+  },
+  "profile": "content/profile.json",
+  "sourceDirs": [
+    "content/materials"
+  ],
+  "includeExtensions": [
+    ".md",
+    ".markdown",
+    ".txt",
+    ".json",
+    ".csv",
+    ".html"
+  ],
+  "excludeNames": [
+    ".git",
+    ".github",
+    ".DS_Store",
+    "node_modules",
+    "dist",
+    "build",
+    "data",
+    "assets",
+    "scripts",
+    ".env",
+    ".env.local",
+    "README.md"
+  ],
+  "maxExcerptChars": 220,
+  "maxTextChars": 12000
+}

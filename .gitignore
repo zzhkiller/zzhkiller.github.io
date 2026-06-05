@@ -1,0 +1,15 @@
+.DS_Store
+.env
+.env.*
+node_modules/
+.cache/
+.parcel-cache/
+dist/
+build/
+coverage/
+*.log
+*.tmp
+__pycache__/
+.gitrepo/
+assets/profile.jpg
+assets/profile.png
