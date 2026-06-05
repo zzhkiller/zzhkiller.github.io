@@ -30,8 +30,10 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir -p _site/content
+          cp .nojekyll _site/
           cp index.html _site/
           cp -R assets data _site/
+          cp content/profile.json _site/content/profile.json
           cp -R content/materials _site/content/materials
       - name: Configure Pages
         uses: actions/configure-pages@v5
