@@ -114,6 +114,19 @@ function renderLinks(selector, links, asList = false, fallback = "") {
   container.innerHTML = html;
 }
 
+function isExternalUrl(url) {
+  return /^https?:\/\//i.test(url || "");
+}
+
+function isReadableMaterial(url) {
+  return /^content\/materials\/.+\.(md|markdown|txt)$/i.test(String(url || "").split(/[?#]/)[0]);
+}
+
+function displayUrl(url) {
+  if (!isReadableMaterial(url)) return url;
+  return `material.html?src=${encodeURIComponent(url)}`;
+}
+
 function renderTimeline(items) {
   const container = $("[data-highlights]");
   if (!container) return;
@@ -147,6 +160,7 @@ function renderListItem(item) {
   }
   const title = item.title || item.label || "Untitled";
   const url = item.url || "";
+  const href = displayUrl(url);
   const meta = [
     item.authors,
     item.venue,
@@ -157,7 +171,7 @@ function renderListItem(item) {
   ].filter(Boolean).join(" · ");
   const summary = item.summary || item.note || "";
   const titleHtml = url
-    ? `<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a>`
+    ? `<a href="${escapeHtml(href)}"${isExternalUrl(href) ? ' target="_blank" rel="noreferrer"' : ""}>${escapeHtml(title)}</a>`
     : escapeHtml(title);
   return `
     <li>
@@ -187,8 +201,9 @@ function renderEntries(selector, items, compact = false) {
   container.innerHTML = items.map((item) => {
     const period = item.period ? `<div class="entry-period">${escapeHtml(item.period)}</div>` : "";
     const title = item.title || item.role || item.degree || "Untitled";
+    const href = displayUrl(item.url || "");
     const titleHtml = item.url
-      ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a>`
+      ? `<a href="${escapeHtml(href)}"${isExternalUrl(href) ? ' target="_blank" rel="noreferrer"' : ""}>${escapeHtml(title)}</a>`
       : escapeHtml(title);
     const org = item.organization || item.school || "";
     const orgHtml = renderOrganization(item, org);
@@ -312,7 +327,7 @@ function renderResults() {
     const summary = card.querySelector("[data-doc-summary]");
     const tags = card.querySelector("[data-doc-tags]");
 
-    link.href = doc.url || doc.path || "#";
+    link.href = displayUrl(doc.url || doc.path || "#");
     link.textContent = doc.title || "Untitled Material";
     type.textContent = doc.type || "Material";
     date.textContent = formatDate(doc.updatedAt || doc.date);

@@ -506,6 +506,95 @@ p {
   color: var(--muted);
 }
 
+.reader-shell {
+  width: min(860px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 48px 0 76px;
+}
+
+.reader-article {
+  display: grid;
+  gap: 14px;
+}
+
+.reader-topline {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 16px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.reader-topline a {
+  text-decoration: none;
+}
+
+.reader-topline a:hover {
+  text-decoration: underline;
+}
+
+.reader-article h1 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 2rem;
+  line-height: 1.18;
+  letter-spacing: 0;
+}
+
+.reader-summary {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.reader-content {
+  display: grid;
+  gap: 12px;
+  margin-top: 18px;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+}
+
+.reader-content h2,
+.reader-content h3,
+.reader-content h4 {
+  margin: 18px 0 0;
+  color: var(--ink);
+  line-height: 1.32;
+  letter-spacing: 0;
+}
+
+.reader-content h2 {
+  font-size: 1.28rem;
+}
+
+.reader-content h3,
+.reader-content h4 {
+  font-size: 1.08rem;
+}
+
+.reader-content p {
+  margin: 0;
+  color: var(--ink);
+}
+
+.reader-content ul {
+  margin: 0;
+  padding-left: 22px;
+  color: var(--ink);
+}
+
+.reader-content pre {
+  overflow: auto;
+  margin: 0;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+}
+
 mark {
   border-radius: 3px;
   background: #fde68a;
@@ -591,5 +680,18 @@ mark {
 
   .text-button {
     width: 100%;
+  }
+
+  .reader-shell {
+    width: min(100% - 24px, 680px);
+    padding-top: 30px;
+  }
+
+  .reader-topline {
+    flex-direction: column;
+  }
+
+  .reader-article h1 {
+    font-size: 1.55rem;
   }
 }

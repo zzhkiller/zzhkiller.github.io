@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T16:01:53.839432+00:00",
+  "generatedAt": "2026-06-05T16:35:51.901315+00:00",
   "site": {
     "title": "Zhouxing Zhao | Personal Homepage",
     "description": "A searchable personal homepage for public profile, projects, publications, services, and materials.",
@@ -354,7 +354,7 @@
         "leadership"
       ],
       "date": "",
-      "updatedAt": "2026-06-05T15:20:28.874181+00:00",
+      "updatedAt": "2026-06-05T16:27:26.783272+00:00",
       "path": "content/materials/experience.md",
       "url": "content/materials/experience.md",
       "text": "Professional Experience China Communications Services / Zhejiang Communications Services R&D Director and Chief Architect, May 2023 to present. Zhouxing Zhao leads AI and data product R&D, digital transformation architecture, and cross-provincial delivery. He built an AI capability platform, organized a 50-person AI R&D team, and promoted engineering standards, reusable components, and technical documentation systems. Hangzhou Shuopan Intelligent Technology Head of R&D Center, April 2021 to May 2023. He managed a 40-person R&D team, built master-data and foundational-data systems with TOGAF enterprise architecture methods, and used data fabric and application assembly practices to shorten enterprise software delivery cycles. Hikvision Digital Technology Senior Manager, July 2015 to April 2021. He led the construction of a B2B DevOps platform, designed large-scale KMS architecture for attachment data and intelligent permission management, managed software product BOM systems, and received Hikvision's Golden Brick Award for two consecutive years."
@@ -370,7 +370,7 @@
         "profile"
       ],
       "date": "",
-      "updatedAt": "2026-06-05T15:20:30.301051+00:00",
+      "updatedAt": "2026-06-05T16:29:15.719669+00:00",
       "path": "content/materials/profile-overview.md",
       "url": "content/materials/profile-overview.md",
       "text": "Zhouxing Zhao - Public Profile Overview Zhouxing Zhao is an R&D Director and Chief Architect based in Hangzhou, China. His work focuses on AI engineering, data governance, low-altitude UAV applications, cloud-edge collaboration, heterogeneous computing, and intelligent scheduling systems. He currently works at Zhejiang Communications Services Co., Ltd. His public profile combines enterprise architecture, engineering management, research-oriented product development, and digital transformation delivery. Research and engineering interests include computer vision, large model applications, data governance, cloud-edge-device collaboration, low-altitude economy scenarios, UAV scheduling, DevOps platforms, knowledge graphs, and heterogeneous computing resource scheduling."
@@ -406,7 +406,7 @@
         "photovoltaic"
       ],
       "date": "",
-      "updatedAt": "2026-06-05T14:58:19.970387+00:00",
+      "updatedAt": "2026-06-05T16:27:34.453237+00:00",
       "path": "content/materials/research-projects.md",
       "url": "content/materials/research-projects.md",
       "text": "Representative Research and Engineering Projects Professional UAV R&D and Applications for Typical Low-Altitude Scenarios Period: 2025 to 2026. Role: Core contributor, rank 4/30. Achievement: Developed a professional UAV platform for urban security, emergency communications, perception scheduling, intelligent recognition, and task collaboration. Built a unified scheduling platform for heterogeneous UAVs, supporting collaborative operation across different aircraft types. Technical focus: target detection, behavior recognition, intelligent scheduling algorithms, multi-mode navigation, anti-interference control, and real-time response in complex low-altitude environments. Data-Driven Code Assembly Platform Period: 2023 to 2025. Role: Project lead, rank 1/40. Achievement: Led an automated code assembly platform based on data-driven reuse, component reuse, modular code repositories, and knowledge graphs. The platform supports rapid component matching and intelligent assembly. Reported outcome: the platform improved average R&D efficiency by more than 30% according to the personal statement. Cloud-Edge Intelligent Core for Integrated Sensing and Collaborative Dispatching Period: 2025 to 2026. Role: Architecture lead. Achievement: Designed cloud-edge intelligent core architecture and lightweight AI inference technologies for constrained terminals. Technical focus: low-latency AI inference, cloud-edge-device collaboration, heterogeneous computing scheduling, and integrated sensing and dispatching. Key Technologies for Photovoltaic Cloud-Edge-Device Collaborative Intelligent Response Period: 2024 to 2025. Role: Project lead. Achievement: Researched cloud-edge-device collaboration in photovoltaic scenarios, including edge-side real-time monitoring, cloud-side intelligent scheduling, terminal response, and predictive maintenance models. Reported outcome: the personal statement records reported sales revenue of RMB 1 billion from this achievement."
@@ -422,7 +422,7 @@
         "teaching"
       ],
       "date": "",
-      "updatedAt": "2026-06-05T14:35:37.131096+00:00",
+      "updatedAt": "2026-06-05T16:30:43.430229+00:00",
       "path": "content/materials/services-and-honors.md",
       "url": "content/materials/services-and-honors.md",
       "text": "Services and Honors Professional Services Industrial Professor, Zhejiang Post and Telecommunication College. Lecturer, School of Mechanical Engineering, Jiaxing University. Expert, Zhejiang Association for Artificial Intelligence. Expert, Hangzhou Digital Economy Federation. Senior expert in the telecom group ecosystem. Honors Excellent Architect, Zhejiang Smart City Promotion Association, 2024. Hikvision Golden Brick Award, two consecutive years. Zhejiang Comservice Outstanding Individual, 2025. Zhejiang Comservice Advanced Team, 2025."
