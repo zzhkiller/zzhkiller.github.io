@@ -1,5 +1,5 @@
 {
-  "name": "Zhouxing Zhao",
+  "name": "Zhouxing Zhao (赵周行)",
   "headline": "R&D Director | Chief Architect | AI, Data & Cloud-Edge Systems",
   "location": "Hangzhou, China",
   "organization": "Zhejiang Communications Services Co., Ltd.",
@@ -10,6 +10,10 @@
     {
       "label": "GitHub",
       "url": "https://github.com/zzhkiller"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:zzxvane@gmail.com"
     }
   ],
   "skills": [
@@ -29,7 +33,7 @@
   "highlights": [
     {
       "date": "2026",
-      "text": "Recommended as a candidate for China Telecom Association for Science and Technology's Most Beautiful Science and Technology Worker."
+      "text": "Recognized with the Most Beautiful Science and Technology Worker honor by China Telecom Association for Science and Technology."
     },
     {
       "date": "2025",
@@ -307,17 +311,49 @@
     }
   ],
   "services": [
-    "Industrial Professor, Zhejiang Post and Telecommunication College.",
-    "Lecturer, School of Mechanical Engineering, Jiaxing University.",
-    "Expert, Zhejiang Association for Artificial Intelligence.",
-    "Expert, Hangzhou Digital Economy Federation.",
-    "Senior expert in the telecom group ecosystem."
+    {
+      "title": "Industrial Professor, Zhejiang Post and Telecommunication College",
+      "year": "Current appointment"
+    },
+    {
+      "title": "Lecturer, School of Mechanical Engineering, Jiaxing University",
+      "year": "Current appointment"
+    },
+    {
+      "title": "Expert, Zhejiang Association for Artificial Intelligence",
+      "year": "Current appointment"
+    },
+    {
+      "title": "Expert, Hangzhou Digital Economy Federation",
+      "year": "Current appointment"
+    },
+    {
+      "title": "Senior Expert in the Telecom Group Ecosystem",
+      "year": "Current appointment"
+    }
   ],
   "honors": [
-    "Excellent Architect, Zhejiang Smart City Promotion Association, 2024.",
-    "Hikvision Golden Brick Award, two consecutive years.",
-    "Zhejiang Comservice Outstanding Individual, 2025.",
-    "Zhejiang Comservice Advanced Team, 2025."
+    {
+      "title": "Most Beautiful Science and Technology Worker, China Telecom Association for Science and Technology",
+      "year": "2026"
+    },
+    {
+      "title": "Excellent Architect, Zhejiang Smart City Promotion Association",
+      "year": "2024"
+    },
+    {
+      "title": "Hikvision Golden Brick Award",
+      "year": "During Hikvision tenure, 2015-2021",
+      "status": "Two consecutive years"
+    },
+    {
+      "title": "Zhejiang Comservice Outstanding Individual",
+      "year": "2025"
+    },
+    {
+      "title": "Zhejiang Comservice Advanced Team",
+      "year": "2025"
+    }
   ],
   "quickLinks": [
     {

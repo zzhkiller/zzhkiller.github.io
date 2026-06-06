@@ -153,7 +153,7 @@ async function loadMaterial() {
   const rawText = await rawResponse.text();
 
   const title = doc.title || safePath.split("/").pop().replace(/\.(md|markdown|txt)$/i, "");
-  document.title = `${title} | Zhouxing Zhao`;
+  document.title = `${title} | Zhouxing Zhao (赵周行)`;
   titleNode.textContent = title;
   typeNode.textContent = doc.type || "Material";
   summaryNode.textContent = doc.summary || "";

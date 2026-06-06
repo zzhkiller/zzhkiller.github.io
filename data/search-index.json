@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-05T16:39:17.576974+00:00",
+  "generatedAt": "2026-06-06T02:59:23.691307+00:00",
   "site": {
-    "title": "Zhouxing Zhao | Personal Homepage",
+    "title": "Zhouxing Zhao (赵周行) | Personal Homepage",
     "description": "A searchable personal homepage for public profile, projects, publications, services, and materials.",
     "recommendedRepository": "zzhkiller.github.io",
     "recommendedPagesUrl": "https://zzhkiller.github.io/"
   },
   "profile": {
-    "name": "Zhouxing Zhao",
+    "name": "Zhouxing Zhao (赵周行)",
     "headline": "R&D Director | Chief Architect | AI, Data & Cloud-Edge Systems",
     "location": "Hangzhou, China",
     "organization": "Zhejiang Communications Services Co., Ltd.",
@@ -18,6 +18,10 @@
       {
         "label": "GitHub",
         "url": "https://github.com/zzhkiller"
+      },
+      {
+        "label": "Email",
+        "url": "mailto:zzxvane@gmail.com"
       }
     ],
     "skills": [
@@ -37,7 +41,7 @@
     "highlights": [
       {
         "date": "2026",
-        "text": "Recommended as a candidate for China Telecom Association for Science and Technology's Most Beautiful Science and Technology Worker."
+        "text": "Recognized with the Most Beautiful Science and Technology Worker honor by China Telecom Association for Science and Technology."
       },
       {
         "date": "2025",
@@ -315,17 +319,49 @@
       }
     ],
     "services": [
-      "Industrial Professor, Zhejiang Post and Telecommunication College.",
-      "Lecturer, School of Mechanical Engineering, Jiaxing University.",
-      "Expert, Zhejiang Association for Artificial Intelligence.",
-      "Expert, Hangzhou Digital Economy Federation.",
-      "Senior expert in the telecom group ecosystem."
+      {
+        "title": "Industrial Professor, Zhejiang Post and Telecommunication College",
+        "year": "Current appointment"
+      },
+      {
+        "title": "Lecturer, School of Mechanical Engineering, Jiaxing University",
+        "year": "Current appointment"
+      },
+      {
+        "title": "Expert, Zhejiang Association for Artificial Intelligence",
+        "year": "Current appointment"
+      },
+      {
+        "title": "Expert, Hangzhou Digital Economy Federation",
+        "year": "Current appointment"
+      },
+      {
+        "title": "Senior Expert in the Telecom Group Ecosystem",
+        "year": "Current appointment"
+      }
     ],
     "honors": [
-      "Excellent Architect, Zhejiang Smart City Promotion Association, 2024.",
-      "Hikvision Golden Brick Award, two consecutive years.",
-      "Zhejiang Comservice Outstanding Individual, 2025.",
-      "Zhejiang Comservice Advanced Team, 2025."
+      {
+        "title": "Most Beautiful Science and Technology Worker, China Telecom Association for Science and Technology",
+        "year": "2026"
+      },
+      {
+        "title": "Excellent Architect, Zhejiang Smart City Promotion Association",
+        "year": "2024"
+      },
+      {
+        "title": "Hikvision Golden Brick Award",
+        "year": "During Hikvision tenure, 2015-2021",
+        "status": "Two consecutive years"
+      },
+      {
+        "title": "Zhejiang Comservice Outstanding Individual",
+        "year": "2025"
+      },
+      {
+        "title": "Zhejiang Comservice Advanced Team",
+        "year": "2025"
+      }
     ],
     "quickLinks": [
       {
@@ -354,7 +390,7 @@
         "leadership"
       ],
       "date": "",
-      "updatedAt": "2026-06-05T16:27:26.783272+00:00",
+      "updatedAt": "2026-06-06T02:41:06.153027+00:00",
       "path": "content/materials/experience.md",
       "url": "content/materials/experience.md",
       "text": "Professional Experience China Communications Services / Zhejiang Communications Services R&D Director and Chief Architect, May 2023 to present. Zhouxing Zhao leads AI and data product R&D, digital transformation architecture, and cross-provincial delivery. He built an AI capability platform, organized a 50-person AI R&D team, and promoted engineering standards, reusable components, and technical documentation systems. Hangzhou Shuopan Intelligent Technology Head of R&D Center, April 2021 to May 2023. He managed a 40-person R&D team, built master-data and foundational-data systems with TOGAF enterprise architecture methods, and used data fabric and application assembly practices to shorten enterprise software delivery cycles. Hikvision Digital Technology Senior Manager, July 2015 to April 2021. He led the construction of a B2B DevOps platform, designed large-scale KMS architecture for attachment data and intelligent permission management, managed software product BOM systems, and received Hikvision's Golden Brick Award for two consecutive years."
@@ -422,10 +458,10 @@
         "teaching"
       ],
       "date": "",
-      "updatedAt": "2026-06-05T16:30:43.430229+00:00",
+      "updatedAt": "2026-06-06T02:57:12.559592+00:00",
       "path": "content/materials/services-and-honors.md",
       "url": "content/materials/services-and-honors.md",
-      "text": "Services and Honors Professional Services Industrial Professor, Zhejiang Post and Telecommunication College. Lecturer, School of Mechanical Engineering, Jiaxing University. Expert, Zhejiang Association for Artificial Intelligence. Expert, Hangzhou Digital Economy Federation. Senior expert in the telecom group ecosystem. Honors Excellent Architect, Zhejiang Smart City Promotion Association, 2024. Hikvision Golden Brick Award, two consecutive years. Zhejiang Comservice Outstanding Individual, 2025. Zhejiang Comservice Advanced Team, 2025."
+      "text": "Services and Honors Professional Services Industrial Professor, Zhejiang Post and Telecommunication College. Appointment period: current appointment. Lecturer, School of Mechanical Engineering, Jiaxing University. Appointment period: current appointment. Expert, Zhejiang Association for Artificial Intelligence. Appointment period: current appointment. Expert, Hangzhou Digital Economy Federation. Appointment period: current appointment. Senior Expert in the Telecom Group Ecosystem. Appointment period: current appointment. Honors Most Beautiful Science and Technology Worker, China Telecom Association for Science and Technology, 2026. Excellent Architect, Zhejiang Smart City Promotion Association, 2024. Hikvision Golden Brick Award, two consecutive years during Hikvision tenure, 2015 to 2021. Zhejiang Comservice Outstanding Individual, 2025. Zhejiang Comservice Advanced Team, 2025."
     }
   ],
   "stats": {
