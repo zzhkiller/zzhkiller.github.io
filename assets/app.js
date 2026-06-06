@@ -124,7 +124,8 @@ function isReadableMaterial(url) {
 
 function displayUrl(url) {
   if (!isReadableMaterial(url)) return url;
-  return `material.html?src=${encodeURIComponent(url)}`;
+  const materialPath = String(url || "").split(/[?#]/)[0];
+  return `material.html?src=${encodeURIComponent(materialPath)}`;
 }
 
 function renderTimeline(items) {

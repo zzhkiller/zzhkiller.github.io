@@ -29,7 +29,12 @@ function formatDate(value) {
 }
 
 function safeSourcePath(value) {
-  const decoded = decodeURIComponent(value || "").trim();
+  let decoded = String(value || "").trim();
+  try {
+    decoded = decodeURIComponent(decoded);
+  } catch {
+    return "";
+  }
   if (!decoded || decoded.includes("..") || /^https?:\/\//i.test(decoded)) return "";
   if (!/^content\/materials\/.+\.(md|markdown|txt)$/i.test(decoded)) return "";
   return decoded;

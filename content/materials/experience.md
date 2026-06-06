@@ -7,7 +7,7 @@ summary: Work experience spanning China Communications Services, Hangzhou Shuopa
 
 # Professional Experience
 
-## [China Communications Services](https://www.chinaccs.com.hk/) / [Zhejiang Communications Services](https://www.chinaccs.com.hk/en/about/about.php)
+## [China Communications Services](https://www.chinaccs.com.hk/en/global/home.php) / [Zhejiang Communications Services](https://www.chinaccs.com.hk/en/about/about.php)
 
 R&D Director and Chief Architect, May 2023 to present.
 
