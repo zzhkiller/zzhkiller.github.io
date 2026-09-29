@@ -7,6 +7,9 @@ const typeNode = document.querySelector("[data-material-type]");
 const summaryNode = document.querySelector("[data-material-summary]");
 const tagsNode = document.querySelector("[data-material-tags]");
 const contentNode = document.querySelector("[data-material-content]");
+let translations = {};
+let language = "en";
+let loadedMaterial = null;
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -15,6 +18,61 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
+}
+
+function bilingualMarkup(primaryHtml, secondaryText) {
+  if (!secondaryText) return primaryHtml;
+  return `
+    <span class="bilingual">
+      <span class="bilingual-en">${primaryHtml}</span>
+      <span class="bilingual-zh" lang="zh-CN">${escapeHtml(secondaryText)}</span>
+    </span>
+  `;
+}
+
+function getStoredLanguage() {
+  try {
+    return localStorage.getItem("zzhkiller-language") === "zh" ? "zh" : "en";
+  } catch {
+    return "en";
+  }
+}
+
+function getStaticLabel(key) {
+  return translations.ui?.static?.[key]?.[language] || "";
+}
+
+function applyStaticLanguage() {
+  document.querySelectorAll("[data-i18n]").forEach((node) => {
+    const label = getStaticLabel(node.dataset.i18n);
+    if (label) node.textContent = label;
+  });
+  const toggle = document.querySelector("[data-language-toggle]");
+  if (toggle) {
+    toggle.textContent = getStaticLabel(language === "en" ? "toggle.toChinese" : "toggle.toEnglish") || (language === "en" ? "中文" : "English");
+    toggle.setAttribute("aria-label", language === "en" ? "Switch to Chinese / 切换到中文" : "Switch to English / 切换到英文");
+  }
+}
+
+function setLanguage(nextLanguage, persist = true) {
+  language = nextLanguage === "zh" ? "zh" : "en";
+  document.documentElement.dataset.language = language;
+  document.documentElement.lang = language === "zh" ? "zh-CN" : "en";
+  if (persist) {
+    try {
+      localStorage.setItem("zzhkiller-language", language);
+    } catch {
+      // Language preference remains available for the current page.
+    }
+  }
+  applyStaticLanguage();
+  if (loadedMaterial) {
+    const { title, type, summary, translation, updatedAt } = loadedMaterial;
+    titleNode.innerHTML = bilingualMarkup(escapeHtml(title), translation.title || "");
+    typeNode.innerHTML = bilingualMarkup(escapeHtml(type), translation.type || translations.ui?.types?.[type] || "资料");
+    summaryNode.innerHTML = bilingualMarkup(escapeHtml(summary), translation.summary || "");
+    sourceLink.textContent = `${getStaticLabel("reader.source") || "Source file"}${updatedAt ? ` · ${formatDate(updatedAt)}` : ""}`;
+  }
 }
 
 function formatDate(value) {
@@ -69,6 +127,14 @@ function renderInline(text) {
 
 function renderReadableText(rawText) {
   const lines = stripFrontmatter(rawText).replace(/\r\n?/g, "\n").split("\n");
+  const labelZh = {
+    Period: "周期",
+    Role: "角色",
+    Achievement: "成果",
+    "Technical focus": "技术重点",
+    "Reported outcome": "成果表现",
+    "Appointment period": "任期"
+  };
   const blocks = [];
   let listItems = [];
   let codeLines = [];
@@ -126,7 +192,11 @@ function renderReadableText(rawText) {
     flushList();
     const label = trimmed.match(/^([A-Z][A-Za-z /-]{1,36}):\s+(.+)$/);
     if (label) {
-      blocks.push(`<p><strong>${escapeHtml(label[1])}:</strong> ${renderInline(label[2])}</p>`);
+      const translatedLabel = labelZh[label[1]] || "";
+      const labelMarkup = translatedLabel
+        ? bilingualMarkup(escapeHtml(label[1]), translatedLabel)
+        : escapeHtml(label[1]);
+      blocks.push(`<p><strong>${labelMarkup}:</strong> ${renderInline(label[2])}</p>`);
       return;
     }
     blocks.push(`<p>${renderInline(trimmed)}</p>`);
@@ -143,9 +213,14 @@ async function loadMaterial() {
     throw new Error("Missing or unsupported material path.");
   }
 
-  const indexResponse = await fetch("data/search-index.json", { cache: "no-store" });
+  const [indexResponse, i18nResponse] = await Promise.all([
+    fetch("data/search-index.json", { cache: "no-store" }),
+    fetch("content/i18n.json", { cache: "no-store" })
+  ]);
   const index = await indexResponse.json();
+  translations = i18nResponse.ok ? await i18nResponse.json() : {};
   const doc = (index.documents || []).find((item) => item.path === safePath || item.url === safePath) || {};
+  const translation = translations.materials?.[safePath] || {};
   const rawResponse = await fetch(safePath, { cache: "no-store" });
   if (!rawResponse.ok) {
     throw new Error("The material file could not be loaded.");
@@ -154,19 +229,28 @@ async function loadMaterial() {
 
   const title = doc.title || safePath.split("/").pop().replace(/\.(md|markdown|txt)$/i, "");
   document.title = `${title} | Zhouxing Zhao (赵周行)`;
-  titleNode.textContent = title;
-  typeNode.textContent = doc.type || "Material";
-  summaryNode.textContent = doc.summary || "";
+  loadedMaterial = {
+    title,
+    type: doc.type || "Material",
+    summary: doc.summary || "",
+    translation,
+    updatedAt: doc.updatedAt
+  };
+  setLanguage(getStoredLanguage(), false);
   tagsNode.innerHTML = (doc.tags || []).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("");
   sourceLink.href = safePath;
-  sourceLink.textContent = `Source file${doc.updatedAt ? ` · ${formatDate(doc.updatedAt)}` : ""}`;
   contentNode.innerHTML = renderReadableText(rawText);
 }
 
+const languageToggle = document.querySelector("[data-language-toggle]");
+if (languageToggle) {
+  languageToggle.addEventListener("click", () => setLanguage(language === "en" ? "zh" : "en"));
+}
+setLanguage(getStoredLanguage(), false);
 loadMaterial().catch((error) => {
-  titleNode.textContent = "Material unavailable";
+  titleNode.innerHTML = bilingualMarkup("Material unavailable", "资料不可用");
   summaryNode.textContent = "";
   tagsNode.innerHTML = "";
   if (sourceLink) sourceLink.hidden = true;
-  contentNode.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
+  contentNode.innerHTML = `<div class="empty-state">${bilingualMarkup(escapeHtml(error.message), "请检查资料路径或重新生成资料索引。")}</div>`;
 });
