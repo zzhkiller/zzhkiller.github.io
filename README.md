@@ -43,6 +43,10 @@ bash scripts/update_portal.sh
 
 ## 本地预览
 
+网站以纯英文展示。`content/profile.json` 保存首页资料，`content/research-sources.json` 保存经筛选的知网公开文献记录、核对日期及来源差异说明。该来源记录仅包含成果元数据。
+
+论文、学位论文和专利分别计数。同一专利的公开与授权文献按数字公开号去重，首页优先展示授权记录；统计以标注的核对日期为准。仅有中文题名的成果使用英文译名。学会任职与会员信息来自本人提供的资料，未提供的入会时间不作推断。
+
 ```bash
 python3 scripts/collect_materials.py
 python3 -m http.server 8000

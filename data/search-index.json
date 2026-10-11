@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-29T15:08:29.543984+00:00",
+  "generatedAt": "2026-10-11T16:14:59.081625+00:00",
   "site": {
-    "title": "Zhouxing Zhao (赵周行) | Personal Homepage",
+    "title": "Zhouxing Zhao | Personal Homepage",
     "description": "A searchable personal homepage for public profile, projects, publications, services, and materials.",
     "recommendedRepository": "zzhkiller.github.io",
     "recommendedPagesUrl": "https://zzhkiller.github.io/"
   },
   "profile": {
-    "name": "Zhouxing Zhao (赵周行)",
+    "name": "Zhouxing Zhao",
     "headline": "R&D Director | Chief Architect | AI, Data & Cloud-Edge Systems",
     "location": "Hangzhou, China",
     "organization": "Zhejiang Communications Services Co., Ltd.",
-    "role": "R&D Director and Chief Architect",
-    "summary": "Zhouxing Zhao works on AI engineering, data governance, low-altitude UAV applications, cloud-edge collaboration, and intelligent scheduling systems. His work connects enterprise architecture, research-driven product development, and large-scale engineering delivery across digital transformation scenarios.",
+    "role": "R&D Director, Chief Architect and Senior Engineer",
+    "summary": "Zhouxing Zhao is an R&D Director, Chief Architect and Senior Engineer at Zhejiang Communications Services Co., Ltd. His research and engineering interests include multimodal AI, embodied intelligence, data assets, low-altitude UAV systems, and cloud-edge collaboration. He combines enterprise architecture and research-driven product development with large-scale engineering delivery, building on earlier work in activity-based costing and data warehouses.",
     "avatar": "assets/profile.jpeg",
     "contacts": [
       {
@@ -22,11 +22,17 @@
       {
         "label": "Email",
         "url": "mailto:zzxvane@gmail.com"
+      },
+      {
+        "label": "CNKI Author Profile",
+        "url": "https://au.cnki.net/author/personalInfo/000076112695"
       }
     ],
     "skills": [
       "AI Engineering",
       "Computer Vision",
+      "Multimodal AI",
+      "Embodied Intelligence",
       "Large Model Applications",
       "Cloud-Edge Collaboration",
       "Low-Altitude UAV Systems",
@@ -39,6 +45,10 @@
       "Heterogeneous Computing"
     ],
     "highlights": [
+      {
+        "date": "Aug 2026",
+        "text": "Appointed Committee Member of the Zhejiang Association for Artificial Intelligence."
+      },
       {
         "date": "2026",
         "text": "Recognized with the Most Beautiful Science and Technology Worker honor by China Telecom Association for Science and Technology."
@@ -105,7 +115,8 @@
         "period": "2012 - 2015",
         "degree": "M.S. in Automation",
         "school": "Hangzhou Dianzi University",
-        "details": "Research focus: automatic control theory and applications."
+        "details": "Master's thesis: Research and Application of Cost Control for Pharmaceutical Enterprises.",
+        "url": "https://x.cnki.net/read/readonline.ashx?appid=CRSP_BASIC_PSMC&dbCode=CMFD&tableName=CMFD201701&fileName=1016073731.nh&fileSourceType=1"
       },
       {
         "period": "2008 - 2012",
@@ -154,171 +165,270 @@
         "venue": "Sensors, 26(3), 896",
         "year": "2026",
         "url": "https://doi.org/10.3390/s26030896",
-        "summary": "DOI: 10.3390/s26030896."
-      },
-      {
-        "title": "Internal Audit and Risk Management of State-Owned Enterprises in the Big Data Environment",
-        "authors": "Zhouxing Zhao, Jiansheng Li, Lieyong Xie, Xiaolan Zhu",
-        "venue": "International Economics and Development",
-        "year": "2025",
-        "url": "https://api.artdesignp.com/uploads/file/asp/20250917131015d18308092.pdf",
-        "summary": "DOI: 10.61369/IED.2025020006."
-      },
-      {
-        "title": "The Foundation Support, Key Areas and Development Focus of Low-Altitude Economy",
-        "authors": "Chang Sun, Zhouxing Zhao, Shuai Hu, Fangjuan Liao",
-        "venue": "International Economics and Development",
-        "year": "2024",
-        "url": "https://api.artdesignp.com/uploads/file/asp/20250812145709ca1043140.pdf",
-        "summary": "DOI: 10.61369/IED.2024120008."
+        "summary": "DOI: 10.3390/s26030896.",
+        "links": [
+          {
+            "label": "CNKI",
+            "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceEOX8TZJRM_2DpCvq1_sgcliN7K6my3R0OXEhwoduzEW26YopGqXPAt62N5y1HfXtb0XSguI8GM4n_yB4TBSWf-YZauuTCZgmRiCRfg4OukXAy6-K9FYlphgMJW8Td6Mb1AiqCmGkp7Q3zskFklAshkXIWRMQyijhC9BMsHKPdnFzKTHIO5g5IyROlKXdg-do7KRvElQuHlOK6F0TI5xWXJChF77yQco5gk=&uniplatform=NZKPT&language=CHS"
+          }
+        ]
       },
       {
         "title": "Resource-Incentivized-Based Asynchronous Task Scheduling for Cross-Regional Cloud-Edge Collaboration",
         "authors": "Guanjie Cheng, Ruihao Wang, Yishan Chen, Zhouxing Zhao, Xinkui Zhao, Zhiyang Ding",
-        "venue": "Telecommunications Science",
+        "venue": "Telecommunications Science, 2026(7), 16-31",
         "year": "2026",
         "url": "https://www.telecomsci.com/zh/article/156375467/",
-        "summary": "Online-first article page."
+        "summary": "Proposes resource-incentive Stackelberg scheduling and asynchronous coordinate descent for heterogeneous cloud-edge data centers. Simulations report faster convergence and lower response latency than the evaluated baselines.",
+        "links": [
+          {
+            "label": "CNKI",
+            "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceEM8O1emmdm4XU4Cz-WoiJV6SxsZM4zoDul8zR2JIpP6Am2iL-rde6EtpBCb9cLCjm9MCGsLvlO-Z15fGdGXC75zLxzTQLYDB-uqVXmyr3TsgAUk2Sq1jzF3wDUYe-w3ULqbktscCQTPmUCNXrSwNfS7wonsyDTWhcXVKn1oNCUxtHgMAcjEjvoZQLATePex6kCq7U99QIASzQ==&uniplatform=NZKPT&language=CHS"
+          }
+        ]
+      },
+      {
+        "title": "Internal Audit and Risk Management of State-Owned Enterprises in the Big Data Environment",
+        "authors": "Zhouxing Zhao, Jiansheng Li, Lieyong Xie, Xiaolan Zhu",
+        "venue": "International Economics and Development, 3(2)",
+        "year": "2025",
+        "url": "https://api.artdesignp.com/uploads/file/asp/20250917131015d18308092.pdf",
+        "summary": "DOI: 10.61369/IED.2025020006.",
+        "links": [
+          {
+            "label": "CNKI",
+            "url": "https://scholar.cnki.net/en/Detail/index/GARJ2021_6/SQKL43C2CABB683EFE1FD5BFE47631AABAD9"
+          }
+        ]
+      },
+      {
+        "title": "The Foundation Support, Key Areas and Development Focus of Low-Altitude Economy",
+        "authors": "Chang Sun, Zhouxing Zhao, Shuai Hu, Fangjuan Liao",
+        "venue": "International Economics and Development, 2(12)",
+        "year": "2024",
+        "url": "https://api.artdesignp.com/uploads/file/asp/20250812145709ca1043140.pdf",
+        "summary": "DOI: 10.61369/IED.2024120008.",
+        "links": [
+          {
+            "label": "CNKI",
+            "url": "https://scholar.cnki.net/en/Detail/index/GARJ2021_6/SQKLF000D0C8B0713A53CEACD714989F0B73"
+          }
+        ]
+      },
+      {
+        "title": "Research on Cost Variance Analysis Methods and Applications",
+        "authors": "Zhouxing Zhao, Feng Wu",
+        "venue": "Information & Computer (Theory Edition), 2014(18), 119-120",
+        "year": "2014",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceEMHw-bWKZFq94agkPRDGWM6jVdH2M7er9Rwtg2NGU2ThXkNwRgNHxblmByOg_k9_EAma2Op1pvFiIQ42ftuOp3jYCYaOmvf-zYoKgWdkvlwLBzPssCIK3Ro-src1cGa8A_ACAcl12W6FqG2XYtYj1vZGJ_isiRg-lgHmhpdrNzNApQvTV7cOn9SJlq2qQkSqCs=&uniplatform=NZKPT&language=CHS",
+        "summary": "Uses activity-based costing to analyze cost value, cost drivers and workshop efficiency in pharmaceutical manufacturing, supporting cost control and management decisions.",
+        "titleLanguage": "English translation"
       }
     ],
     "patents": [
       {
-        "title": "Data Storage Method and System Based on Blockchain",
-        "publication": "CN118690396B",
-        "role": "Second inventor of five",
-        "year": "2024",
-        "url": "https://patents.google.com/patent/CN118690396B/zh"
+        "title": "Data Asset Semantic Enhancement Method and System Based on Knowledge Graphs and Large Models",
+        "publication": "CN122174837B",
+        "role": "First inventor of 7",
+        "year": "2026",
+        "status": "Granted",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceENAh0xUqb6w25oPzEQ5_kihX8TxdjQhLA8-15ikhr8u240dMop9uS_jm93St7Gk0XvPFfcFGrySTeegQDvKUOQGNRSJRLiiG5Li8F10As_jG4Gqhj7lSot9QibdRw1TTMcDW8EmwvdtmEosl5GY2HZluG2FHAVNaCNrUf-OoTMQuL7QyoSovWuw1IPUnCkMxwY=&uniplatform=NZKPT&language=CHS",
+        "publicationDate": "2026-09-18"
       },
       {
-        "title": "Application Assembly Middle Platform System Based on Metadata Asset Platform",
-        "publication": "CN118350030A",
-        "role": "Second inventor of five",
-        "year": "2024",
-        "url": "https://patents.google.com/patent/CN118350030A/zh"
-      },
-      {
-        "title": "Device Fingerprint Identification Method and Apparatus",
-        "publication": "CN113765891B",
-        "role": "Third inventor of five",
-        "year": "2021",
-        "url": "https://patents.google.com/patent/CN113765891B/zh"
-      },
-      {
-        "title": "Bionic Swarm-Intelligence Anti-Wind Collaborative Method for Low-Altitude Logistics UAV Clusters",
-        "publication": "CN120595865A",
-        "role": "First inventor of six",
-        "year": "2025",
-        "url": "https://patents.google.com/patent/CN120595865A/zh"
+        "title": "Internal-Control-Driven Data Consistency Consensus Method",
+        "publication": "CN122196051A",
+        "role": "First inventor of 7",
+        "year": "2026",
+        "status": "Published application",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceEPgF16UfjcRRkR09Yd_G5IrbQ3iQhYwz56R95hrSluGDWAw13w-czIGRs88QLJUpDMX8Gry2kzU9ppAl-y3IoaQY4J06MJxxzACr4VdvO74PBNTGUdeWmAQ1Tui-c8nhZ_GPfbkYYa1YzCYBQj3t5opV37rjG0TLyKLdqgyGu5H37kGY9xeAThvX4O8DavCLn0=&uniplatform=NZKPT&language=CHS",
+        "publicationDate": "2026-06-12"
       },
       {
         "title": "AI-Based Data Asset Quality Assessment and Automatic Repair Method and System",
-        "publication": "CN120595865A",
-        "role": "First inventor of six",
-        "year": "2024",
-        "url": "https://patents.google.com/patent/CN120595865A/zh",
-        "note": "Publication number is duplicated in the source statement and should be verified before final release."
-      },
-      {
-        "title": "Data Organization Method for an Activity-Based Cost Control Data Warehouse for Pharmaceutical Enterprises",
-        "publication": "CN103258047B",
-        "role": "Fourth inventor of five",
-        "year": "2013",
-        "url": "https://patents.google.com/patent/CN103258047B/zh"
-      },
-      {
-        "title": "Edge Real-Time Monitoring and Abnormal Behavior Analysis Method Based on Deep-Learning Large Models",
-        "publication": "CN119150241A",
-        "role": "First inventor of six",
-        "year": "2024",
-        "url": "https://patents.google.com/patent/CN119150241A/zh"
-      },
-      {
-        "title": "Network Communication Method and System for Low-Altitude Fields",
-        "publication": "CN119172827A",
-        "role": "First inventor of seven",
-        "year": "2024",
-        "url": "https://patents.google.com/patent/CN119172827A/zh"
-      },
-      {
-        "title": "Low-Altitude Economy Development Form Analysis Method and System for High-Density Cities",
-        "publication": "CN118350030A",
-        "role": "First inventor of four",
+        "publication": "CN120596478B",
+        "role": "First inventor of 6",
         "year": "2025",
-        "url": "https://patents.google.com/patent/CN118350030A/zh",
-        "note": "Publication number is reused in the source statement and should be verified before final release."
+        "status": "Granted",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceEMRmGzjPDzn2pntoRmEAxRf_15FMfOP9H0WpxXFyWf0M26vDlcwAVuSESN7q2kj8uizEc1QZuUK_PIAR_u-KIeo12ZHw6muAHNqFrz8Tw7fXIZWSEiQSLmBb3UBILPxA4PMTZiBgGgnhIq2lnRuIOuEa_HenaVcNNP1kNlWcEDSL3tXinhl6hizVEDnP7xT5eY=&uniplatform=NZKPT&language=CHS",
+        "publicationDate": "2025-11-18"
       },
       {
         "title": "Consensus Method and System Based on Data Assets",
         "publication": "CN120631983B",
-        "role": "First inventor of seven",
+        "role": "First inventor of 7",
         "year": "2025",
-        "url": "https://patents.google.com/patent/CN120631983B/zh"
+        "status": "Granted",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceEM3rNOjr3KVKGBLgqdJrUAUXatC_pEOfedjluQtEWJDhymnELfpYJHFw2tO_4o1-UBQaYiaBM_noOawHsNkvOw6D0-kxh_zUzisN5hKpFt7dN_1lpqoUBVwtMtbDvuAhQ39WD-1RMfdRTeCD_JB2S7Ojzu0dTU9qY0mxRQ4Q4i42aHJ4FnFJ5iCTlZAOZgE2so=&uniplatform=NZKPT&language=CHS",
+        "publicationDate": "2025-11-18"
       },
       {
-        "title": "Communication-Interference Integrated Base-Station Method and System for UAV Low-Altitude Security",
-        "publication": "CN120263276B",
-        "role": "First inventor of four",
+        "title": "Energy-Saving Edge Service Invocation Sleep-Wake Control Method and System",
+        "publication": "CN120730447B",
+        "role": "First inventor of 6",
         "year": "2025",
-        "url": "https://patents.google.com/patent/CN120263276B/zh"
-      },
-      {
-        "title": "Encrypted Communication Method and System for Metadata Assets",
-        "publication": "CN118694514A",
-        "role": "First inventor of five",
-        "year": "2024",
-        "url": "https://patents.google.com/patent/CN118694514A/zh"
-      },
-      {
-        "title": "UAV Multipath Reflection Communication Enhancement Method and System for Urban Canyons",
-        "publication": "CN120639125B",
-        "role": "First inventor of seven",
-        "year": "2024",
-        "url": "https://patents.google.com/patent/CN120639125B/zh"
-      },
-      {
-        "title": "UAV Detection and Tracking Method Adapted to Low-Altitude Economy Road Inspection and Logistics",
-        "publication": "CN120708393A",
-        "role": "First inventor of four",
-        "year": "2025",
-        "url": "https://patents.google.com/patent/CN120708393A/zh"
-      },
-      {
-        "title": "Low-Altitude Economy UAV Data Processing Method and System Based on Large Models",
-        "publication": "CN119169493B",
-        "role": "First inventor of eight",
-        "year": "2024",
-        "url": "https://patents.google.com/patent/CN119169493B/zh"
-      },
-      {
-        "title": "Client-Based AI Model Dynamic Optimization and Adaptive Inference Method",
-        "publication": "CN119903928A",
-        "role": "First inventor of ten",
-        "year": "2024",
-        "url": "https://patents.google.com/patent/CN119903928A/zh"
+        "status": "Granted",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceEObnWDXjFVIAfhd_HpkyrPdIYlCBk_iLCafrgKARwBSh1fhJgcGkWOmuYeRDwIRVeLpc3oGhW_kCGVkWApdGGCnWeF6Vs_V87NkR5DzElYGZm2PAk-rcaWybs_GSLqXoQoGVkzIpLCNCNIo08_K8wkL6QjBsuo9SSSRzMzZrWbbptyA8byaEUy86MxjHgs63K8=&uniplatform=NZKPT&language=CHS",
+        "publicationDate": "2025-11-18"
       },
       {
         "title": "Engineering Edge Data Fragment Reassembly and Business Breakpoint Resume Method in Weak-Network Environments",
         "publication": "CN120602477B",
-        "role": "First inventor of six",
+        "role": "First inventor of 6",
         "year": "2025",
-        "url": "https://patents.google.com/patent/CN120602477B/zh"
+        "status": "Granted",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceEOgv-7RfG-9u1ND-KxvbKcPTco1i21TZm73xV379ehltw3y9TFBZSWSph9AvBrhW3eaRVglsZjaiK5Juk0RzsDHEqs-OHXusYfUOhGCm7_ylvGJfJD-JBhNdXNp0UrSWVI-FPcHj1eF56brgkgvPkqD2DWNjZdXdKYQ3Bdb58J0RVH1KtQGHwiF9qEhlE_DzEs=&uniplatform=NZKPT&language=CHS",
+        "publicationDate": "2025-10-21"
       },
       {
-        "title": "Energy-Saving Edge Service Invocation Sleep-Wake Control Method and System",
-        "publication": "CN120730447A",
-        "role": "First inventor of six",
+        "title": "UAV Multipath Reflection Communication Enhancement Method and System for Urban Canyons",
+        "publication": "CN120639125B",
+        "role": "First inventor of 7",
         "year": "2025",
-        "url": "https://patents.google.com/patent/CN120730447A/zh"
+        "status": "Granted",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceEOy0F_EHdZVbYs2N5jmjMYGOrReQ1l2eBaum6sefhbnHvzxOkGTGKEV1DD3nt3LW2FjiMCS5iMe37M3gihYq1AdK589mdbspZwFcDMOC-cwZZRLtrehUIxeVecwIuJNEsVJeXFGvFDT1oxf7xB3Sa-Wdjv59nObL4Y0Ag4AbTDFKFKQxuVWTI0Zhnwye0SQ3PM=&uniplatform=NZKPT&language=CHS",
+        "publicationDate": "2025-10-21"
+      },
+      {
+        "title": "Bionic Swarm-Intelligence Anti-Wind Collaborative Method for Low-Altitude Logistics UAV Clusters",
+        "publication": "CN120595865B",
+        "role": "First inventor of 6",
+        "year": "2025",
+        "status": "Granted",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceENiBPfuCGv_I0WuOEM4zkVChQwXDnop4lZhpiYscNtd493Rb1gmDdXT3KBKq3JcQ_uxjg2M_EDFeRkMxle0986a8bPhQQ9GMXI6kPVJP5FjZkATz2nqV4GGKsouZEzlyBP0ryG9fxTXLHUk3yXkj5HypyI_LE9pnc7EKRcfljoTJnv5Zd-So6fmPlQaHeAuglk=&uniplatform=NZKPT&language=CHS",
+        "publicationDate": "2025-10-03"
+      },
+      {
+        "title": "UAV Detection and Tracking Method Adapted to Low-Altitude Economy Road Inspection and Logistics",
+        "publication": "CN120708393A",
+        "role": "First inventor of 4",
+        "year": "2025",
+        "status": "Published application",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceENiDT5KVJnUaQtOSOKE4W29XotmVgYzcDr51zW7lpTNg3TzZrrl5dTI3svHh_uJ2Fx3VC8F7AnqQqnJCDqb7qrF2TmaAMMy7HE6oJIivupUMj7yityubMCrFNA_5SMVK5a2HDsmBoz2wcRPZ2SyjuNdvablmv9vlZum9-SUP1PFu9cq8LW2PnGp-mssLncRIjw=&uniplatform=NZKPT&language=CHS",
+        "publicationDate": "2025-09-26"
+      },
+      {
+        "title": "Communication-Interference Integrated Base-Station Method and System for UAV Low-Altitude Security",
+        "publication": "CN120263276B",
+        "role": "First inventor of 4",
+        "year": "2025",
+        "status": "Granted",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceEM9SnWtiMbSIElRX2aSlX-xuE2RuYDDXafinTZ4HdTplyENngUv016xD_5nJqjwCwKtTI0jCx6toGmYaprbdi3x6wRk7_e8iS4X9mfhiPIhirwjY0gKGGq6XokVs-nDLlN_IY0lQHokSrciMonF72NYs3ciQvTYI-iAzv_KAjg2copaPPUdQu9Q2PMBdOQQGk8=&uniplatform=NZKPT&language=CHS",
+        "publicationDate": "2025-08-12"
+      },
+      {
+        "title": "Low-Altitude Economy UAV Data Processing Method and System Based on Large Models",
+        "publication": "CN119169493B",
+        "role": "First inventor of 8",
+        "year": "2025",
+        "status": "Granted",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceEMAntVykatE77LaKBpVeHEoc2iHpmtDxGC8iFpJremLXuwyhGgFiRMgOIClYxUAbDtimsieQq7cz1cCWsybnzTgihAfWbhzQp1D3Nrj_PCALfnjvDYmMAEZRIuVpiB5KJqBepI2pn7DUz7WmyTpQQduIzsMNEhAxLKHfN90wkzYdSOXQ5z4uHzcM2wEhfGwkJM=&uniplatform=NZKPT&language=CHS",
+        "publicationDate": "2025-07-04"
+      },
+      {
+        "title": "Low-Altitude Economy Development Form Analysis Method and System for High-Density Cities",
+        "publication": "CN120218448A",
+        "role": "First inventor of 4",
+        "year": "2025",
+        "status": "Published application",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceEMfpCLwQ9bzQznmJhScgqmPQWGrsV0dfJ2vSLn-RUXS0bS7rjjAyNPzjClONVPN-IZSmyhCn15okFr6Uuy3TZ0SXqDtr82sosycbayBusUYc3mq25NBUu-pUH0mfWfq_O9dCUUHhkThGoeZLBpXhMEXHFK4-zH3rQoTidNjCqF63wBCd6iDvGEqhn2GncGEY6M=&uniplatform=NZKPT&language=CHS",
+        "publicationDate": "2025-06-27"
+      },
+      {
+        "title": "Client-Based AI Model Dynamic Optimization and Adaptive Inference Method",
+        "publication": "CN119903928B",
+        "role": "First inventor of 10",
+        "year": "2025",
+        "status": "Granted",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceEOGAD9u8KNjpptTLlEd0x5rv0A4PBp5jJzIf_jtHLvrYhZPTRVSSoAEVU_1tpMpiGtfcAea6uLdxsOCG7DZwQJDWvGzSWVrJUMwzOsr2qXUYWHiTIf_assHWfvIf2ku3sv5eAmEBBFnU-aLGxqBFQXyUWU1wIuZCJkabzYxQ0nCZklrt2PrNQ162s4OHmDN6UU=&uniplatform=NZKPT&language=CHS",
+        "publicationDate": "2025-06-10"
+      },
+      {
+        "title": "Network Communication Method and System for Low-Altitude Fields",
+        "publication": "CN119172827B",
+        "role": "First inventor of 7",
+        "year": "2025",
+        "status": "Granted",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceENeyAHit20jf-W0snOaBNERuIGUbQly2sAQULTI4SEzgVHax4zG0wGDz8Kr15Je1Aslj2bzWN9exYVTxabmJgmoHB8fkwIetpHJGySrKfGATZu3vYuK2VIQRSJ9pffYw3YGCpqUyI6vztNxg-gWSLZ1e9O49OB0GpZnwVjplLq5tyvMRweSeYgwlZ-jNSurG60=&uniplatform=NZKPT&language=CHS",
+        "publicationDate": "2025-02-25"
+      },
+      {
+        "title": "Edge Real-Time Monitoring and Abnormal Behavior Analysis Method Based on Deep-Learning Large Models",
+        "publication": "CN119150241A",
+        "role": "First inventor of 6",
+        "year": "2024",
+        "status": "Published application",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceEN6XXsFIj8FE6VZNCXLWLne2n_6EnQ8FFEvVzkKBgQON0GhQYryw245pJN8wPuWUirBiLX1YIeBFgLI4Zmk34UnVkse9WzXJ-w2OnHFVno2gZNZuIvOUhih6NfpUiMOiX8usnRGYpYCYBL5H6SyqYLlWIauupEwt1r7H-I0ScjTWPMdyOKYQ4n8-PL4P5Xrwfk=&uniplatform=NZKPT&language=CHS",
+        "publicationDate": "2024-12-17"
+      },
+      {
+        "title": "Encrypted Communication Method and System for Metadata Assets",
+        "publication": "CN118694514B",
+        "role": "First inventor of 5",
+        "year": "2024",
+        "status": "Granted",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceENXw47h6WFtyUftsT9VVZyHW9Z3pEbFgXL1TIV5gkeYxggQU8D4Nuu6D4hCPFqCh63lZCoQUQF7EvXXtjZnr3hW15cyLgn1exlLAG6wLDTfs6TIvz4eFHfB0808oehH_ZV4NWX4VC-nZf7uEFxrbpTmmEr7FmVDt-tMCggPtzlg5gu2TKzDzmxAkQCa_bQLQmk=&uniplatform=NZKPT&language=CHS",
+        "publicationDate": "2024-10-25"
+      },
+      {
+        "title": "Data Storage Method and System Based on Blockchain",
+        "publication": "CN118690396B",
+        "role": "Second inventor of 5",
+        "year": "2024",
+        "status": "Granted",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceEOfZMvqnjs_wGD6JPkLXfb-Yw1Z6jinpy1c5gg5bMTq6obbl4JUhXAPXshLhYKbHGCJKxCtfaBZUe0F7-vnl4U3LgfMA6hQ66gFUk6seQ_2oVwbwWN2qlzy3k67iRdQzUmdDI9CPUD0oPa-flFFjGej8OqbDor6XBESmt1jB0rfzLVSIKxmwri0wJiNZyPK-Bw=&uniplatform=NZKPT&language=CHS",
+        "publicationDate": "2024-10-25"
+      },
+      {
+        "title": "Application Assembly Middle Platform System Based on Metadata Asset Platform",
+        "publication": "CN118350030B",
+        "role": "Second inventor of 5",
+        "year": "2024",
+        "status": "Granted",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceENAj07n60Q19CvHnjdmXxtT6TmLF7JygDC9MppVCNhY0NCYYVDVgCsbEwmWMkaT5RS19EpI1UXmmCLE1licYZv8Z4ZyHGxSGMaR24Ehd6xUF1m5OQHxDOYU68Dl2YznBwpoax9tUjRBpi-b7gJbs0vlITuVLLTgjwkT6XT3HQMFbLxQVybQgZVyPrE3z2GiRCo=&uniplatform=NZKPT&language=CHS",
+        "publicationDate": "2024-09-20"
+      },
+      {
+        "title": "Device Fingerprint Identification Method and Apparatus",
+        "publication": "CN113765891B",
+        "role": "Third inventor of 5",
+        "year": "2024",
+        "status": "Granted",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceEOEU5aikXxtHmGolydMnsu7CjGsUWjSvfBEwQS6ZKId1iuCKzrxjEJxxpE0T2pYChqG5dlW7idGleE_QbX0TjG1JnK55e5NrgZUL7ugv0w-fReHYZgRjFwMgVhK7ZEap9WIS0G32Cm7KhAy6AEYRp7_0BBLutT-H5Bn0tvoRUQONzrjw399jKLbycR7_0Y1vdI=&uniplatform=NZKPT&language=CHS",
+        "publicationDate": "2024-04-09"
+      },
+      {
+        "title": "Data Organization Method for an Activity-Based Cost Control Data Warehouse for Pharmaceutical Enterprises",
+        "publication": "CN103258047B",
+        "role": "Fourth inventor of 6",
+        "year": "2016",
+        "status": "Granted",
+        "url": "https://kns.cnki.net/kcms2/article/abstract?v=9TisLvyceEP3K1tj0bqIYLAKdOjEZ2S8Jfdf9zABjt1L0LRnNvzKJtnsdE7NAJZfwBtp9PCUSZ8D6MsHBQa1RXera23mZ0M0SVRX_YhWgYQv-zF7vc667EeWREvElbZzf0g-t06y_xOdDxqN8gWjmBguaHfSfhmr9q4Rov1edmHYcoQtAWHD39KQ-c3qNN0luq2Ao53rGBE=&uniplatform=NZKPT&language=CHS",
+        "publicationDate": "2016-09-14"
       },
       {
         "title": "Software Copyrights",
         "publication": "18 registrations",
         "status": "Summary",
         "year": "As listed in the personal statement",
-        "note": "Software copyright certificate links can be added after selecting which certificates are suitable for public release."
+        "note": "Software copyright certificates can be linked when selected for public release."
       }
     ],
     "services": [
+      {
+        "title": "Committee Member, Zhejiang Association for Artificial Intelligence",
+        "year": "Aug 2026 - Present"
+      },
+      {
+        "title": "Member, Chinese Institute of Electronics (CIE)",
+        "year": "Current membership",
+        "url": "https://www.cie.org.cn/"
+      },
+      {
+        "title": "Member, Chinese Association for Artificial Intelligence (CAAI)",
+        "year": "Current membership",
+        "url": "https://www.caai.cn/"
+      },
       {
         "title": "Industrial Professor, Zhejiang Post and Telecommunication College",
         "year": "Current appointment"
@@ -376,9 +486,48 @@
         "label": "Publications",
         "url": "#publications"
       }
-    ]
+    ],
+    "theses": [
+      {
+        "title": "Research and Application of Cost Control for Pharmaceutical Enterprises",
+        "authors": "Zhouxing Zhao",
+        "venue": "Master's thesis, Hangzhou Dianzi University",
+        "year": "2015",
+        "url": "https://x.cnki.net/read/readonline.ashx?appid=CRSP_BASIC_PSMC&dbCode=CMFD&tableName=CMFD201701&fileName=1016073731.nh&fileSourceType=1",
+        "summary": "Studies activity-based costing, cost variance analysis, predictive control and a cost-control information system for pharmaceutical enterprises.",
+        "titleLanguage": "English translation"
+      }
+    ],
+    "researchRecord": {
+      "source": "CNKI Author Profile",
+      "url": "https://au.cnki.net/author/personalInfo/000076112695",
+      "reviewedAt": "2026-10-12",
+      "journalArticles": 5,
+      "mastersTheses": 1,
+      "distinctInventions": 20,
+      "grantedInventions": 16,
+      "recordCount": 42
+    }
   },
   "documents": [
+    {
+      "title": "Academic Profile and Research Record",
+      "summary": "Academic background and a dated CNKI research record: five journal articles, one master's thesis and 20 distinct inventions, 16 with granted records.",
+      "type": "Profile",
+      "tags": [
+        "CNKI",
+        "academic-profile",
+        "data-assets",
+        "embodied-intelligence",
+        "multimodal-AI",
+        "patents"
+      ],
+      "date": "",
+      "updatedAt": "2026-10-11T16:14:38.549719+00:00",
+      "path": "content/materials/academic-profile.md",
+      "url": "content/materials/academic-profile.md",
+      "text": "Academic Profile and Research Record Zhouxing Zhao is a Senior Engineer and Chief Architect at Zhejiang Communications Services Co., Ltd., part of China Communications Services. His CNKI profile lists computer software, multimodal systems, data elements and embodied intelligence as research interests, with communications and information systems as the subject area. Education M.S. in Automation, Hangzhou Dianzi University, 2012-2015. B.S. in Automation, Hangzhou Dianzi University, 2008-2012. Research and Application of Cost Control for Pharmaceutical Enterprises, master's thesis, 2015. English translation of the thesis title. Research Record The CNKI author profile was reviewed on October 12, 2026. Its public list contains 42 records: five journal articles, one master's thesis and 36 patent publication records. The patent publications represent 20 distinct inventions, 16 of which have a granted record. Application and grant publications for the same invention are counted once. Research Interests Multimodal AI and embodied intelligence. Data assets, data governance, knowledge graphs and enterprise software. Cloud-edge collaboration, asynchronous task scheduling and heterogeneous computing. Low-altitude UAV communication, sensing and logistics systems. Activity-based costing, cost variance analysis, predictive control and data warehouses. Academic Societies Committee Member, Zhejiang Association for Artificial Intelligence, August 2026 to present. Member, Chinese Institute of Electronics (CIE), current membership. Member, Chinese Association for Artificial Intelligence (CAAI), current membership."
+    },
     {
       "title": "Professional Experience",
       "summary": "Work experience spanning China Communications Services, Hangzhou Shuopan Intelligent Technology, and Hikvision.",
@@ -390,10 +539,10 @@
         "leadership"
       ],
       "date": "",
-      "updatedAt": "2026-09-29T15:06:48.634042+00:00",
+      "updatedAt": "2026-10-11T16:14:38.479958+00:00",
       "path": "content/materials/experience.md",
       "url": "content/materials/experience.md",
-      "text": "Professional Experience 专业经历 China Communications Services / Zhejiang Communications Services R&D Director and Chief Architect, May 2023 to present. 研发总监、首席架构师，2023年5月至今。 Zhouxing Zhao leads AI and data product R&D, digital transformation architecture, and cross-provincial delivery. He built an AI capability platform, organized a 50-person AI R&D team, and promoted engineering standards, reusable components, and technical documentation systems. 负责人工智能与数据产品研发、数字化转型架构和跨省交付；建设人工智能能力平台和50人人工智能研发团队，推动工程规范、可复用组件与技术文档体系建设。 Hangzhou Shuopan Intelligent Technology Head of R&D Center, April 2021 to May 2023. 研发中心负责人，2021年4月至2023年5月。 He managed a 40-person R&D team, built master-data and foundational-data systems with TOGAF enterprise architecture methods, and used data fabric and application assembly practices to shorten enterprise software delivery cycles. 管理40人研发团队，采用TOGAF企业架构方法建设主数据与基础数据系统，并通过数据织构和应用组装实践缩短企业软件交付周期。 Hikvision Digital Technology Senior Manager, July 2015 to April 2021. 高级经理，2015年7月至2021年4月。 He led the construction of a B2B DevOps platform, designed large-scale KMS architecture for attachment data and intelligent permission management, managed software product BOM systems, and received Hikvision's Golden Brick Award for two consecutive years. 负责从零建设B2B DevOps平台，设计面向大规模附件数据与智能权限管理的KMS架构，管理软件产品BOM体系，并连续两年获得海康威视金砖奖。"
+      "text": "Professional Experience China Communications Services / Zhejiang Communications Services R&D Director and Chief Architect, May 2023 to present. Zhouxing Zhao leads AI and data product R&D, digital transformation architecture, and cross-provincial delivery. He built an AI capability platform, organized a 50-person AI R&D team, and promoted engineering standards, reusable components, and technical documentation systems. Hangzhou Shuopan Intelligent Technology Head of R&D Center, April 2021 to May 2023. He managed a 40-person R&D team, built master-data and foundational-data systems with TOGAF enterprise architecture methods, and used data fabric and application assembly practices to shorten enterprise software delivery cycles. Hikvision Digital Technology Senior Manager, July 2015 to April 2021. He led the construction of a B2B DevOps platform, designed large-scale KMS architecture for attachment data and intelligent permission management, managed software product BOM systems, and received Hikvision's Golden Brick Award for two consecutive years."
     },
     {
       "title": "Zhouxing Zhao - Public Profile Overview",
@@ -406,28 +555,30 @@
         "profile"
       ],
       "date": "",
-      "updatedAt": "2026-09-29T15:06:48.652225+00:00",
+      "updatedAt": "2026-10-11T16:14:59.018535+00:00",
       "path": "content/materials/profile-overview.md",
       "url": "content/materials/profile-overview.md",
-      "text": "Zhouxing Zhao - Public Profile Overview 赵周行公开资料概览 Zhouxing Zhao is an R&D Director and Chief Architect based in Hangzhou, China. His work focuses on AI engineering, data governance, low-altitude UAV applications, cloud-edge collaboration, heterogeneous computing, and intelligent scheduling systems. 赵周行现居中国杭州，任研发总监、首席架构师，主要从事人工智能工程、数据治理、低空无人机应用、云边协同、异构计算与智能调度系统研究。 He currently works at Zhejiang Communications Services Co., Ltd. His public profile combines enterprise architecture, engineering management, research-oriented product development, and digital transformation delivery. 目前任职于浙江省通信产业服务有限公司。公开资料覆盖企业架构、研发管理、研究型产品开发和数字化转型交付。 Research and engineering interests include computer vision, large model applications, data governance, cloud-edge-device collaboration, low-altitude economy scenarios, UAV scheduling, DevOps platforms, knowledge graphs, and heterogeneous computing resource scheduling. 研究与工程方向包括计算机视觉、大模型应用、数据治理、云边端协同、低空经济场景、无人机调度、DevOps平台、知识图谱和异构计算资源调度。"
+      "text": "Zhouxing Zhao - Public Profile Overview Zhouxing Zhao is an R&D Director, Chief Architect and Senior Engineer based in Hangzhou, China. His work focuses on AI engineering, multimodal systems, embodied intelligence, data governance, low-altitude UAV applications, cloud-edge collaboration, heterogeneous computing and intelligent scheduling systems. He currently works at Zhejiang Communications Services Co., Ltd. His public profile combines enterprise architecture, engineering management, research-oriented product development, and digital transformation delivery. Research and engineering interests include computer vision, large model applications, data governance, cloud-edge-device collaboration, low-altitude economy scenarios, UAV scheduling, DevOps platforms, knowledge graphs, and heterogeneous computing resource scheduling. His CNKI author profile lists research in computer software, multimodal systems, data elements and embodied intelligence. Earlier work includes activity-based costing, predictive control and data warehouses for pharmaceutical enterprises. Since August 2026, he has served as a Committee Member of the Zhejiang Association for Artificial Intelligence. He is also a member of the Chinese Institute of Electronics (CIE) and the Chinese Association for Artificial Intelligence (CAAI)."
     },
     {
       "title": "Publications, Patents, and Intellectual Property",
-      "summary": "Linked publications, invention patents, and software copyrights summarized from the personal statement.",
+      "summary": "Five journal articles, one master's thesis, and 20 distinct inventions, including 16 with granted records in the CNKI author profile reviewed on October 12, 2026.",
       "type": "Publication",
       "tags": [
         "AI",
+        "CNKI",
         "UAV",
         "cloud-edge",
+        "cost-control",
         "patents",
         "publications",
         "software-copyrights"
       ],
       "date": "",
-      "updatedAt": "2026-09-29T15:07:41.814804+00:00",
+      "updatedAt": "2026-10-11T16:14:38.522326+00:00",
       "path": "content/materials/publications-and-ip.md",
       "url": "content/materials/publications-and-ip.md",
-      "text": "Publications, Patents, and Intellectual Property 论文、专利与知识产权 Publications 论文 1. A Monocular Depth Estimation Method for Autonomous Driving Vehicles Based on Gaussian Neural Radiance Fields. Sensors, 26(3), 896, 2026. DOI: 10.3390/s26030896. 基于高斯神经辐射场的自动驾驶车辆单目深度估计方法。《Sensors》，26(3)，896，2026年。DOI：10.3390/s26030896。 2. Internal Audit and Risk Management of State-Owned Enterprises in the Big Data Environment. International Economics and Development, 2025. DOI: 10.61369/IED.2025020006. 大数据环境下国资国企内部审计与风险管理。《International Economics and Development》，2025年。DOI：10.61369/IED.2025020006。 3. The Foundation Support, Key Areas and Development Focus of Low-Altitude Economy. International Economics and Development, 2024. DOI: 10.61369/IED.2024120008. 低空经济的基础支撑、关键领域与发展重点。《International Economics and Development》，2024年。DOI：10.61369/IED.2024120008。 4. Resource-Incentivized-Based Asynchronous Task Scheduling for Cross-Regional Cloud-Edge Collaboration. Telecommunications Science, online-first article page. 面向跨区域云边协同的资源激励型异步任务调度。《电信科学》，在线优先发表页面。 Patents 专利 1. Data Storage Method and System Based on Blockchain. CN118690396B. Second inventor of five. 一种基于区块链的数据存储方法及系统。CN118690396B，5人中排名第2。 2. Application Assembly Middle Platform System Based on Metadata Asset Platform. CN118350030A. Second inventor of five. 一种基于元数据资产平台的应用组装中台系统。CN118350030A，5人中排名第2。 3. Device Fingerprint Identification Method and Apparatus. CN113765891B. Third inventor of five. 一种设备指纹识别方法及装置。CN113765891B，5人中排名第3。 4. Bionic Swarm-Intelligence Anti-Wind Collaborative Method for Low-Altitude Logistics UAV Clusters. CN120595865A. First inventor of six. 一种仿生群体智能的低空物流无人机集群抗风扰协同方法。CN120595865A，6人中排名第1。 5. AI-Based Data Asset Quality Assessment and Automatic Repair Method and System. CN120595865A. First inventor of six. The publication number is duplicated in the source statement and should be verified before final release. 一种基于人工智能的数据资产质量评估与自动修复方法及系统。CN120595865A，6人中排名第1；公开号与其他条目重复，需提交前核验。 6. Data Organization Method for an Activity-Based Cost Control Data Warehouse for Pharmaceutical Enterprises. CN103258047B. Fourth inventor of five. 一种面向药企作业成本控制数据仓库的数据组织方法。CN103258047B，5人中排名第4。 7. Edge Real-Time Monitoring and Abnormal Behavior Analysis Method Based on Deep-Learning Large Models. CN119150241A. First inventor of six. 基于深度学习大模型的边端实时监控与异常行为分析方法。CN119150241A，6人中排名第1。 8. Network Communication Method and System for Low-Altitude Fields. CN119172827A. First inventor of seven. 一种用于低空领域的网络通信方法及系统。CN119172827A，7人中排名第1。 9. Low-Altitude Economy Development Form Analysis Method and System for High-Density Cities. CN118350030A. First inventor of four. The publication number is reused in the source statement and should be verified before final release. 基于高密度城市的低空经济发展形态分析方法及系统。CN118350030A，4人中排名第1；公开号重复，需提交前核验。 10. Consensus Method and System Based on Data Assets. CN120631983B. First inventor of seven. 一种基于数据资产的共识方法及系统。CN120631983B，7人中排名第1。 11. Communication-Interference Integrated Base-Station Method and System for UAV Low-Altitude Security. CN120263276B. First inventor of four. 面向无人机低空安全的通扰一体化基站方法与系统。CN120263276B，4人中排名第1。 12. Encrypted Communication Method and System for Metadata Assets. CN118694514A. First inventor of five. 一种元数据资产的加密通信方法及系统。CN118694514A，5人中排名第1。 13. UAV Multipath Reflection Communication Enhancement Method and System for Urban Canyons. CN120639125B. First inventor of seven. 一种面向城市峡谷的无人机多径反射通信增强方法及系统。CN120639125B，7人中排名第1。 14. UAV Detection and Tracking Method Adapted to Low-Altitude Economy Road Inspection and Logistics. CN120708393A. First inventor of four. 一种适配低空经济道路巡检与物流的无人机检测追踪方法。CN120708393A，4人中排名第1。 15. Low-Altitude Economy UAV Data Processing Method and System Based on Large Models. CN119169493B. First inventor of eight. 一种基于大模型的低空经济无人机数据处理方法及系统。CN119169493B，8人中排名第1。 16. Client-Based AI Model Dynamic Optimization and Adaptive Inference Method. CN119903928A. First inventor of ten. 一种基于客户端的人工智能模型动态优化与自适应推理方法。CN119903928A，10人中排名第1。 17. Engineering Edge Data Fragment Reassembly and Business Breakpoint Resume Method in Weak-Network Environments. CN120602477B. First inventor of six. 弱网环境下的工程边端数据分片重组与业务断点续传方法。CN120602477B，6人中排名第1。 18. Energy-Saving Edge Service Invocation Sleep-Wake Control Method and System. CN120730447A. First inventor of six. 一种面向节能的边端服务调用休眠唤醒控制方法及系统。CN120730447A，6人中排名第1。 Software Copyrights 软件著作权 The personal statement records 18 registered software copyrights. Certificate-level public links can be added after selecting which registrations are suitable for public release. 个人陈述记载已登记软件著作权18项。选择适合公开的登记证书后，可继续补充证书级链接。"
+      "text": "Publications, Patents, and Intellectual Property Source: CNKI Author Profile, reviewed October 12, 2026. Journal articles, theses and patents are counted separately. Patent application and grant publications are merged by their numeric publication identifier; grant records take precedence. Journal Articles 1. A Monocular Depth Estimation Method for Autonomous Driving Vehicles Based on Gaussian Neural Radiance Fields. Ziqin Nie, Zhouxing Zhao, Jieying Pan, Yilong Ren, Haiyang Yu, Liang Xu. Sensors, 26(3), 896, 2026. DOI: 10.3390/s26030896. CNKI 2. Resource-Incentivized-Based Asynchronous Task Scheduling for Cross-Regional Cloud-Edge Collaboration. Guanjie Cheng, Ruihao Wang, Yishan Chen, Zhouxing Zhao, Xinkui Zhao, Zhiyang Ding. Telecommunications Science, 2026(7), 16-31, 2026. Proposes resource-incentive Stackelberg scheduling and asynchronous coordinate descent for heterogeneous cloud-edge data centers. Simulations report faster convergence and lower response latency than the evaluated baselines. CNKI 3. Internal Audit and Risk Management of State-Owned Enterprises in the Big Data Environment. Zhouxing Zhao, Jiansheng Li, Lieyong Xie, Xiaolan Zhu. International Economics and Development, 3(2), 2025. DOI: 10.61369/IED.2025020006. CNKI 4. The Foundation Support, Key Areas and Development Focus of Low-Altitude Economy. Chang Sun, Zhouxing Zhao, Shuai Hu, Fangjuan Liao. International Economics and Development, 2(12), 2024. DOI: 10.61369/IED.2024120008. CNKI 5. Research on Cost Variance Analysis Methods and Applications. Zhouxing Zhao, Feng Wu. Information & Computer (Theory Edition), 2014(18), 119-120, 2014. Uses activity-based costing to analyze cost value, cost drivers and workshop efficiency in pharmaceutical manufacturing, supporting cost control and management decisions. The 2014 cost-variance article title is an English translation of its original Chinese title. The low-altitude economy author order follows the publisher PDF, which lists four authors; the CNKI imported record lists only Zhouxing Zhao. Master's Thesis Research and Application of Cost Control for Pharmaceutical Enterprises. Zhouxing Zhao. Master's thesis, Hangzhou Dianzi University, 2015. Studies activity-based costing, cost variance analysis, predictive control and a cost-control information system for pharmaceutical enterprises. The title above is an English translation of the Chinese thesis title. Invention Patents Twenty distinct inventions are listed below. Sixteen have granted records in the reviewed CNKI profile. Chinese patent titles are presented in English translation. 1. Data Asset Semantic Enhancement Method and System Based on Knowledge Graphs and Large Models. CN122174837B. First inventor of 7. Granted; published 2026-09-18. 2. Internal-Control-Driven Data Consistency Consensus Method. CN122196051A. First inventor of 7. Published application; published 2026-06-12. 3. AI-Based Data Asset Quality Assessment and Automatic Repair Method and System. CN120596478B. First inventor of 6. Granted; published 2025-11-18. 4. Consensus Method and System Based on Data Assets. CN120631983B. First inventor of 7. Granted; published 2025-11-18. 5. Energy-Saving Edge Service Invocation Sleep-Wake Control Method and System. CN120730447B. First inventor of 6. Granted; published 2025-11-18. 6. Engineering Edge Data Fragment Reassembly and Business Breakpoint Resume Method in Weak-Network Environments. CN120602477B. First inventor of 6. Granted; published 2025-10-21. 7. UAV Multipath Reflection Communication Enhancement Method and System for Urban Canyons. CN120639125B. First inventor of 7. Granted; published 2025-10-21. 8. Bionic Swarm-Intelligence Anti-Wind Collaborative Method for Low-Altitude Logistics UAV Clusters. CN120595865B. First inventor of 6. Granted; published 2025-10-03. 9. UAV Detection and Tracking Method Adapted to Low-Altitude Economy Road Inspection and Logistics. CN120708393A. First inventor of 4. Published application; published 2025-09-26. 10. Communication-Interference Integrated Base-Station Method and System for UAV Low-Altitude Security. CN120263276B. First inventor of 4. Granted; published 2025-08-12. 11. Low-Altitude Economy UAV Data Processing Method and System Based on Large Models. CN119169493B. First inventor of 8. Granted; published 2025-07-04. 12. Low-Altitude Economy Development Form Analysis Method and System for High-Density Cities. CN120218448A. First inventor of 4. Published application; published 2025-06-27. 13. Client-Based AI Model Dynamic Optimization and Adaptive Inference Method. CN119903928B. First inventor of 10. Granted; published 2025-06-10. 14. Network Communication Method and System for Low-Altitude Fields. CN119172827B. First inventor of 7. Granted; published 2025-02-25. 15. Edge Real-Time Monitoring and Abnormal Behavior Analysis Method Based on Deep-Learning Large Models. CN119150241A. First inventor of 6. Published application; published 2024-12-17. 16. Encrypted Communication Method and System for Metadata Assets. CN118694514B. First inventor of 5. Granted; published 2024-10-25. 17. Data Storage Method and System Based on Blockchain. CN118690396B. Second inventor of 5. Granted; published 2024-10-25. 18. Application Assembly Middle Platform System Based on Metadata Asset Platform. CN118350030B. Second inventor of 5. Granted; published 2024-09-20. 19. Device Fingerprint Identification Method and Apparatus. CN113765891B. Third inventor of 5. Granted; published 2024-04-09. 20. Data Organization Method for an Activity-Based Cost Control Data Warehouse for Pharmaceutical Enterprises. CN103258047B. Fourth inventor of 6. Granted; published 2016-09-14. Software Copyrights The personal statement records 18 registered software copyrights. Certificate links can be added when selected for public release."
     },
     {
       "title": "Representative Research and Engineering Projects",
@@ -442,42 +593,54 @@
         "photovoltaic"
       ],
       "date": "",
-      "updatedAt": "2026-09-29T15:06:48.668856+00:00",
+      "updatedAt": "2026-10-11T16:14:38.494296+00:00",
       "path": "content/materials/research-projects.md",
       "url": "content/materials/research-projects.md",
-      "text": "Representative Research and Engineering Projects 代表性科研与工程项目 Professional UAV R&D and Applications for Typical Low-Altitude Scenarios 面向典型低空场景的专业化无人机研发与应用 Period: 2025 to 2026. 周期：2025年至2026年。 Role: Core contributor, rank 4/30. 角色：核心贡献者，第4/30位。 Achievement: Developed a professional UAV platform for urban security, emergency communications, perception scheduling, intelligent recognition, and task collaboration. Built a unified scheduling platform for heterogeneous UAVs, supporting collaborative operation across different aircraft types. 成果：面向城市安防、应急通信、感知调度、智能识别和任务协同研发专业化无人机平台，建立异构无人机统一调度平台，支持不同类型飞行器协同作业。 Technical focus: target detection, behavior recognition, intelligent scheduling algorithms, multi-mode navigation, anti-interference control, and real-time response in complex low-altitude environments. 技术重点：目标检测、行为识别、智能调度算法、多模态导航、抗干扰控制和复杂低空环境下的实时响应。 Data-Driven Code Assembly Platform 基于数据驱动的代码组装平台 Period: 2023 to 2025. 周期：2023年至2025年。 Role: Project lead, rank 1/40. 角色：项目负责人，第1/40位。 Achievement: Led an automated code assembly platform based on data-driven reuse, component reuse, modular code repositories, and knowledge graphs. The platform supports rapid component matching and intelligent assembly. 成果：主持建设以数据复用、组件复用、模块化代码仓库和知识图谱为基础的自动化代码组装平台，支持快速组件匹配与智能组装。 Reported outcome: the platform improved average R&D efficiency by more than 30% according to the personal statement. 成果表现：据个人陈述，平台使平均研发效率提升30%以上。 Cloud-Edge Intelligent Core for Integrated Sensing and Collaborative Dispatching 面向感知融合与协同调度的云边智核 Period: 2025 to 2026. 周期：2025年至2026年。 Role: Architecture lead. 角色：架构负责人。 Achievement: Designed cloud-edge intelligent core architecture and lightweight AI inference technologies for constrained terminals. 成果：面向受限终端设计云边智核架构和轻量化人工智能推理技术。 Technical focus: low-latency AI inference, cloud-edge-device collaboration, heterogeneous computing scheduling, and integrated sensing and dispatching. 技术重点：低时延人工智能推理、云边端协同、异构计算调度以及感知与调度融合。 Key Technologies for Photovoltaic Cloud-Edge-Device Collaborative Intelligent Response 光伏云边端协同智能响应关键技术研究与应用 Period: 2024 to 2025. 周期：2024年至2025年。 Role: Project lead. 角色：项目负责人。 Achievement: Researched cloud-edge-device collaboration in photovoltaic scenarios, including edge-side real-time monitoring, cloud-side intelligent scheduling, terminal response, and predictive maintenance models. 成果：研究光伏场景下的云边端协同，包括边缘实时监测、云端智能调度、端侧快速响应和预测性维护模型。 Reported outcome: the personal statement records reported sales revenue of RMB 1 billion from this achievement. 成果表现：个人陈述记载该成果带来十亿元销售收入。"
+      "text": "Representative Research and Engineering Projects Professional UAV R&D and Applications for Typical Low-Altitude Scenarios Period: 2025 to 2026. Role: Core contributor, rank 4/30. Achievement: Developed a professional UAV platform for urban security, emergency communications, perception scheduling, intelligent recognition, and task collaboration. Built a unified scheduling platform for heterogeneous UAVs, supporting collaborative operation across different aircraft types. Technical focus: target detection, behavior recognition, intelligent scheduling algorithms, multi-mode navigation, anti-interference control, and real-time response in complex low-altitude environments. Data-Driven Code Assembly Platform Period: 2023 to 2025. Role: Project lead, rank 1/40. Achievement: Led an automated code assembly platform based on data-driven reuse, component reuse, modular code repositories, and knowledge graphs. The platform supports rapid component matching and intelligent assembly. Reported outcome: the platform improved average R&D efficiency by more than 30% according to the personal statement. Cloud-Edge Intelligent Core for Integrated Sensing and Collaborative Dispatching Period: 2025 to 2026. Role: Architecture lead. Achievement: Designed cloud-edge intelligent core architecture and lightweight AI inference technologies for constrained terminals. Technical focus: low-latency AI inference, cloud-edge-device collaboration, heterogeneous computing scheduling, and integrated sensing and dispatching. Key Technologies for Photovoltaic Cloud-Edge-Device Collaborative Intelligent Response Period: 2024 to 2025. Role: Project lead. Achievement: Researched cloud-edge-device collaboration in photovoltaic scenarios, including edge-side real-time monitoring, cloud-side intelligent scheduling, terminal response, and predictive maintenance models. Reported outcome: the personal statement records reported sales revenue of RMB 1 billion from this achievement."
     },
     {
       "title": "Services and Honors",
-      "summary": "Public professional services, expert appointments, and selected honors.",
+      "summary": "Professional appointments, academic society memberships and selected honors, including the August 2026 committee appointment.",
       "type": "Service",
       "tags": [
+        "CAAI",
+        "CIE",
         "expert",
         "honors",
+        "membership",
         "service",
         "teaching"
       ],
       "date": "",
-      "updatedAt": "2026-09-29T15:06:48.685281+00:00",
+      "updatedAt": "2026-10-11T16:14:38.535999+00:00",
       "path": "content/materials/services-and-honors.md",
       "url": "content/materials/services-and-honors.md",
-      "text": "Services and Honors 社会服务与荣誉 Professional Services 专业服务 Industrial Professor, Zhejiang Post and Telecommunication College. Appointment period: current appointment. 浙江邮电职业技术学院产业教授，任期：现任。 Lecturer, School of Mechanical Engineering, Jiaxing University. Appointment period: current appointment. 嘉兴大学机械工程学院讲师，任期：现任。 Expert, Zhejiang Association for Artificial Intelligence. Appointment period: current appointment. 浙江省人工智能学会专家，任期：现任。 Expert, Hangzhou Digital Economy Federation. Appointment period: current appointment. 杭州数字经济联合会专家，任期：现任。 Senior Expert in the Telecom Group Ecosystem. Appointment period: current appointment. 通信集团生态高级专家，任期：现任。 Honors 荣誉 Most Beautiful Science and Technology Worker, China Telecom Association for Science and Technology, 2026. 中国电信科学技术协会最美科技工作者，2026年。 Excellent Architect, Zhejiang Smart City Promotion Association, 2024. 浙江省智慧城市促进会优秀架构师，2024年。 Hikvision Golden Brick Award, two consecutive years during Hikvision tenure, 2015 to 2021. 海康威视金砖奖，任职期间连续两年获得，2015年至2021年。 Zhejiang Comservice Outstanding Individual, 2025. 浙江通服优秀个人，2025年。 Zhejiang Comservice Advanced Team, 2025. 浙江通服先进团队，2025年。"
+      "text": "Services and Honors Professional Services and Memberships Committee Member, Zhejiang Association for Artificial Intelligence. Aug 2026 - Present. Member, Chinese Institute of Electronics (CIE). Current membership. Member, Chinese Association for Artificial Intelligence (CAAI). Current membership. Industrial Professor, Zhejiang Post and Telecommunication College. Current appointment. Lecturer, School of Mechanical Engineering, Jiaxing University. Current appointment. Expert, Zhejiang Association for Artificial Intelligence. Current appointment. Expert, Hangzhou Digital Economy Federation. Current appointment. Senior Expert in the Telecom Group Ecosystem. Current appointment. Honors Most Beautiful Science and Technology Worker, China Telecom Association for Science and Technology. 2026. Excellent Architect, Zhejiang Smart City Promotion Association. 2024. Hikvision Golden Brick Award. During Hikvision tenure, 2015-2021. Two consecutive years. Zhejiang Comservice Outstanding Individual. 2025. Zhejiang Comservice Advanced Team. 2025."
     }
   ],
   "stats": {
-    "count": 5,
+    "count": 6,
     "tags": [
       "AI",
+      "CAAI",
+      "CIE",
+      "CNKI",
       "DevOps",
       "R&D",
       "UAV",
+      "academic-profile",
       "architecture",
       "career",
       "cloud-edge",
+      "cost-control",
+      "data-assets",
       "data-governance",
+      "embodied-intelligence",
       "expert",
       "honors",
       "leadership",
+      "membership",
+      "multimodal-AI",
       "patents",
       "photovoltaic",
       "profile",
@@ -487,8 +650,8 @@
       "teaching"
     ],
     "types": {
+      "Profile": 2,
       "Experience": 1,
-      "Profile": 1,
       "Publication": 1,
       "Project": 1,
       "Service": 1
